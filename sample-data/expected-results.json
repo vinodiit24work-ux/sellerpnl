@@ -1,0 +1,5427 @@
+{
+  "generatedBy": "scripts/generate-sample-data.ts (independent calculation in scripts/sample/expected.ts)",
+  "note": "Visible data as exported on 2026-10-05; orders 2026-04-01 to 2026-09-30.",
+  "units": "INR paise (integers)",
+  "settings": {
+    "costingMethod": "TIME_BASED",
+    "gstRegistered": true,
+    "sellerState": "Maharashtra",
+    "gstins": [
+      {
+        "gstin": "27AABCS1234F1Z5",
+        "label": "Pune HQ",
+        "state": "Maharashtra"
+      },
+      {
+        "gstin": "29AABCS1234F1Z3",
+        "label": "Bengaluru warehouse",
+        "state": "Karnataka"
+      }
+    ]
+  },
+  "totals": {
+    "netRevenue": 1597345144,
+    "platformCosts": 285950873,
+    "netSettlement": 1311394271,
+    "cogs": 730726000,
+    "packaging": 33016400,
+    "adSpend": 60730036,
+    "contribution": 486921835,
+    "payout": 1068498365,
+    "overheads": 150800000
+  },
+  "missingCogsSkus": [
+    "HOM-CNDL-SET3",
+    "HOM-PLANT-POT",
+    "HOM-PHT-FRM"
+  ],
+  "platforms": [
+    {
+      "platform": "ajio",
+      "orderLines": 300,
+      "units": 351,
+      "grossSales": 59011332,
+      "sellerDiscounts": 29961359,
+      "sellingRevenue": 29049973,
+      "shippingCollected": 0,
+      "cancellations": 1460380,
+      "refunds": 9712276,
+      "unmatched": 0,
+      "netRevenue": 17877317,
+      "fees": {
+        "commission": 4325081,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 3201500,
+        "reverseShippingFee": 1130500,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 7982282,
+      "feesEstimated": 674799,
+      "gstOnFees": 1558289,
+      "reimbursements": 541940,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 8115141,
+      "netSettlement": 9762176,
+      "cogs": 6316200,
+      "packaging": 280400,
+      "adSpend": 1525125,
+      "contribution": 1640451,
+      "tcs": 80333,
+      "tds": 16068,
+      "payout": 7896336,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 22,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 14329240,
+            "sellingRevenue": 6987230,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 4726856,
+            "sellingRevenue": 2347522,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 10802571,
+            "sellingRevenue": 5345902,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 11829045,
+            "sellingRevenue": 5856851,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 11582286,
+            "sellingRevenue": 5665232,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 5741334,
+            "sellingRevenue": 2847236,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1474015,
+            "tcs": 15515,
+            "tds": 3101
+          },
+          "2026-09": {
+            "netPayout": 2621516,
+            "tcs": 25037,
+            "tds": 5008
+          },
+          "2026-04": {
+            "netPayout": 310143,
+            "tcs": 2707,
+            "tds": 542
+          },
+          "2026-07": {
+            "netPayout": 642091,
+            "tcs": 10158,
+            "tds": 2033
+          },
+          "2026-10": {
+            "netPayout": 350601,
+            "tcs": 3457,
+            "tds": 691
+          },
+          "2026-05": {
+            "netPayout": 1012784,
+            "tcs": 8751,
+            "tds": 1750
+          },
+          "2026-06": {
+            "netPayout": 1485186,
+            "tcs": 14708,
+            "tds": 2943
+          }
+        }
+      }
+    },
+    {
+      "platform": "amazon",
+      "orderLines": 3078,
+      "units": 3542,
+      "grossSales": 192249010,
+      "sellerDiscounts": 1624230,
+      "sellingRevenue": 190624780,
+      "shippingCollected": 0,
+      "cancellations": 6109722,
+      "refunds": 31757228,
+      "unmatched": -441594,
+      "netRevenue": 152316236,
+      "fees": {
+        "commission": 9131075,
+        "fixedFee": 7102000,
+        "collectionFee": 0,
+        "shippingFee": 17943300,
+        "reverseShippingFee": 1486500,
+        "fulfilmentFee": 3651500,
+        "storageFee": 1200000,
+        "otherFees": 0
+      },
+      "feesSettled": 40062874,
+      "feesEstimated": 451501,
+      "gstOnFees": 7292616,
+      "reimbursements": 1077370,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 39437005,
+      "netSettlement": 112879231,
+      "cogs": 68046900,
+      "packaging": 3140400,
+      "adSpend": 14752976,
+      "contribution": 26938955,
+      "tcs": 757784,
+      "tds": 151658,
+      "payout": 120793909,
+      "overcharges": [
+        {
+          "ref": "401-0401790-8363561#APP-SOK-PK5",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "401-0440185-1985025#HOM-CUS-VLV-2",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "401-0443721-4914162#ELC-PWR-10K",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 4000
+        },
+        {
+          "ref": "402-0397789-1112968#HOM-WALL-CLK",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "402-0400651-3363140#APP-TSH-BLK-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "402-0406972-6723280#BTY-FCW-NEEM",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "402-0408987-1387374#APP-KRT-BLU-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "402-0433183-4991927#BTY-HAIR-OIL",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "403-0398056-5855284#APP-SOK-PK5",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "403-0423311-3305043#APP-TSH-WHT-L",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "403-0424195-8048489#ELC-HLD-CAR",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "403-0427946-5565600#BTY-HAIR-OIL",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "403-0429909-7541054#KIT-PAN-NS-24",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "403-0440406-2520059#BTY-NAIL-KIT",
+          "provider": "amazon",
+          "component": "commission",
+          "amount": 2304
+        },
+        {
+          "ref": "404-0401051-3112337#APP-TSH-WHT-L",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "404-0406605-7589545#APP-KRT-BLU-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "404-0409283-6799397#HOM-PHT-FRM",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "404-0411004-5907172#ELC-CHG-20W",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "405-0395269-3618269#APP-TSH-BLK-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 4400
+        },
+        {
+          "ref": "405-0403872-3832090#ELC-SCR-GRD",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "405-0446063-9210274#HOM-CUS-VLV-2",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "406-0416709-1767526#COMBO-KIT-01",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "406-0422487-4638723#BTY-SUN-SPF50",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 4400
+        },
+        {
+          "ref": "406-0432311-8232065#BTY-KJL-BLK",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "406-0437834-3842893#APP-TSH-BLK-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "406-0444498-9650169#BTY-NAIL-KIT",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "406-0445230-1135325#APP-TSH-BLK-M",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "407-0394639-9546461#KIT-PAN-NS-24",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "407-0407338-9512156#KIT-BTL-STL-1L",
+          "provider": "amazon",
+          "component": "commission",
+          "amount": 1000
+        },
+        {
+          "ref": "407-0426274-3860109#HOM-DOOR-MAT",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        },
+        {
+          "ref": "407-0432596-9549474#HOM-CUS-VLV-2",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 1300
+        },
+        {
+          "ref": "408-0414158-2562406#ELC-CBL-USBC-1M",
+          "provider": "amazon",
+          "component": "commission",
+          "amount": 1000
+        },
+        {
+          "ref": "408-0428572-2971026#BTY-FCW-NEEM",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 1300
+        },
+        {
+          "ref": "408-0442343-6061807#BTY-PERF-50",
+          "provider": "amazon",
+          "component": "shippingFee",
+          "amount": 2200
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 5,
+      "estimatedLines": 54,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 28562005,
+            "sellingRevenue": 28347308,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 34592473,
+            "sellingRevenue": 34310696,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 24731206,
+            "sellingRevenue": 24501471,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 36251665,
+            "sellingRevenue": 35904355,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 29469886,
+            "sellingRevenue": 29221637,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 38641775,
+            "sellingRevenue": 38339313,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 20829371,
+            "tcs": 132222,
+            "tds": 26461
+          },
+          "2026-09": {
+            "netPayout": 22719716,
+            "tcs": 142432,
+            "tds": 28506
+          },
+          "2026-06": {
+            "netPayout": 17479322,
+            "tcs": 111010,
+            "tds": 22219
+          },
+          "2026-04": {
+            "netPayout": 6442611,
+            "tcs": 41023,
+            "tds": 8205
+          },
+          "2026-08": {
+            "netPayout": 19795928,
+            "tcs": 124188,
+            "tds": 24855
+          },
+          "2026-05": {
+            "netPayout": 18344289,
+            "tcs": 115553,
+            "tds": 23126
+          },
+          "2026-10": {
+            "netPayout": 3580310,
+            "tcs": 23513,
+            "tds": 4709
+          }
+        }
+      }
+    },
+    {
+      "platform": "amazon_business",
+      "orderLines": 150,
+      "units": 184,
+      "grossSales": 20537388,
+      "sellerDiscounts": 10373600,
+      "sellingRevenue": 10163788,
+      "shippingCollected": 0,
+      "cancellations": 229517,
+      "refunds": 1195885,
+      "unmatched": 0,
+      "netRevenue": 8738386,
+      "fees": {
+        "commission": 861000,
+        "fixedFee": 452500,
+        "collectionFee": 0,
+        "shippingFee": 1269500,
+        "reverseShippingFee": 142600,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 2503842,
+      "feesEstimated": 221758,
+      "gstOnFees": 490599,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2725600,
+      "netSettlement": 6012786,
+      "cogs": 3573700,
+      "packaging": 163400,
+      "adSpend": 560185,
+      "contribution": 1715501,
+      "tcs": 39552,
+      "tds": 7919,
+      "payout": 5708704,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 9,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 3657589,
+            "sellingRevenue": 1802414,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 3817121,
+            "sellingRevenue": 1876439,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 3024774,
+            "sellingRevenue": 1479808,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 2714445,
+            "sellingRevenue": 1358705,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 3869990,
+            "sellingRevenue": 1875875,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3453469,
+            "sellingRevenue": 1770547,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1584272,
+            "tcs": 9968,
+            "tds": 1994
+          },
+          "2026-09": {
+            "netPayout": 966160,
+            "tcs": 6984,
+            "tds": 1399
+          },
+          "2026-07": {
+            "netPayout": 691119,
+            "tcs": 5359,
+            "tds": 1073
+          },
+          "2026-05": {
+            "netPayout": 1013112,
+            "tcs": 7030,
+            "tds": 1407
+          },
+          "2026-10": {
+            "netPayout": 284963,
+            "tcs": 1808,
+            "tds": 363
+          },
+          "2026-06": {
+            "netPayout": 1063708,
+            "tcs": 7582,
+            "tds": 1519
+          },
+          "2026-04": {
+            "netPayout": 105370,
+            "tcs": 821,
+            "tds": 164
+          }
+        }
+      }
+    },
+    {
+      "platform": "amazon_global",
+      "orderLines": 150,
+      "units": 168,
+      "grossSales": 37492188,
+      "sellerDiscounts": 18861489,
+      "sellingRevenue": 18630699,
+      "shippingCollected": 0,
+      "cancellations": 367390,
+      "refunds": 2532519,
+      "unmatched": 0,
+      "netRevenue": 15730790,
+      "fees": {
+        "commission": 2451387,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 8031216,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 8723586,
+      "feesEstimated": 1759017,
+      "gstOnFees": 1887533,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": -11569,
+      "platformCosts": 10494172,
+      "netSettlement": 5236618,
+      "cogs": 3375700,
+      "packaging": 149200,
+      "adSpend": 0,
+      "contribution": 1711718,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 2815725,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 24,
+      "monthly": {
+        "order": {
+          "2026-04": {
+            "grossSales": 3323930,
+            "sellingRevenue": 1634408,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4244078,
+            "sellingRevenue": 2197341,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 8916111,
+            "sellingRevenue": 4498784,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 6421472,
+            "sellingRevenue": 3108035,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 6863484,
+            "sellingRevenue": 3375800,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 7723113,
+            "sellingRevenue": 3816331,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-05": {
+            "netPayout": 371237,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 711009,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 464192,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 877073,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 545105,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 31860,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": -184751,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "bigbasket",
+      "orderLines": 200,
+      "units": 3570,
+      "grossSales": 456386249,
+      "sellerDiscounts": 269355310,
+      "sellingRevenue": 187030939,
+      "shippingCollected": 0,
+      "cancellations": 0,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 187030939,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 4027068
+      },
+      "feesSettled": 3428340,
+      "feesEstimated": 598728,
+      "gstOnFees": 724871,
+      "reimbursements": 0,
+      "penalties": 3455100,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 7482168,
+      "netSettlement": 179548771,
+      "cogs": 90075000,
+      "packaging": 3690000,
+      "adSpend": 0,
+      "contribution": 85783771,
+      "tcs": 0,
+      "tds": 159382,
+      "payout": 163757078,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 24,
+      "monthly": {
+        "order": {
+          "2026-09": {
+            "grossSales": 67871487,
+            "sellingRevenue": 27650275,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 66780786,
+            "sellingRevenue": 27379777,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 164675556,
+            "sellingRevenue": 67809816,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 60002751,
+            "sellingRevenue": 24542857,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 83104280,
+            "sellingRevenue": 33947380,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 13951389,
+            "sellingRevenue": 5700834,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 43304023,
+            "tcs": 0,
+            "tds": 42733
+          },
+          "2026-08": {
+            "netPayout": 46285382,
+            "tcs": 0,
+            "tds": 44969
+          },
+          "2026-10": {
+            "netPayout": 7678794,
+            "tcs": 0,
+            "tds": 7489
+          },
+          "2026-05": {
+            "netPayout": 15202007,
+            "tcs": 0,
+            "tds": 14402
+          },
+          "2026-06": {
+            "netPayout": 45278941,
+            "tcs": 0,
+            "tds": 44088
+          },
+          "2026-07": {
+            "netPayout": 6007931,
+            "tcs": 0,
+            "tds": 5701
+          }
+        }
+      }
+    },
+    {
+      "platform": "bigcommerce",
+      "orderLines": 250,
+      "units": 271,
+      "grossSales": 27637835,
+      "sellerDiscounts": 13703930,
+      "sellingRevenue": 13933905,
+      "shippingCollected": 0,
+      "cancellations": 647734,
+      "refunds": 1950116,
+      "unmatched": 0,
+      "netRevenue": 11336055,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 526570,
+        "shippingFee": 2228000,
+        "reverseShippingFee": 120000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 1750000
+      },
+      "feesSettled": 4546570,
+      "feesEstimated": 78000,
+      "gstOnFees": 832395,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4624570,
+      "netSettlement": 6711485,
+      "cogs": 4685800,
+      "packaging": 240000,
+      "adSpend": 1527020,
+      "contribution": 258665,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 7102775,
+      "overcharges": [
+        {
+          "ref": "#1332",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 4000
+        },
+        {
+          "ref": "#1376",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 8000
+        },
+        {
+          "ref": "#1399",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 4000
+        },
+        {
+          "ref": "#1411",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 4000
+        },
+        {
+          "ref": "#1429",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 8000
+        },
+        {
+          "ref": "#1499",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 4000
+        },
+        {
+          "ref": "#1509",
+          "provider": "bluedart",
+          "component": "shippingFee",
+          "amount": 4000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 4787745,
+            "sellingRevenue": 2434798,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 4982850,
+            "sellingRevenue": 2532649,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3900494,
+            "sellingRevenue": 1980846,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4172850,
+            "sellingRevenue": 2051322,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 3563934,
+            "sellingRevenue": 1801158,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 6229962,
+            "sellingRevenue": 3133132,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1134194,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 1270789,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 1612633,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 885784,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 498223,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 1817085,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": -115933,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "blinkit",
+      "orderLines": 200,
+      "units": 3678,
+      "grossSales": 373440615,
+      "sellerDiscounts": 214354956,
+      "sellingRevenue": 159085659,
+      "shippingCollected": 0,
+      "cancellations": 0,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 159085659,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 5277078
+      },
+      "feesSettled": 4333896,
+      "feesEstimated": 943182,
+      "gstOnFees": 949874,
+      "reimbursements": 0,
+      "penalties": 2981300,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 8258378,
+      "netSettlement": 150827281,
+      "cogs": 75334200,
+      "packaging": 3486000,
+      "adSpend": 0,
+      "contribution": 72007081,
+      "tcs": 0,
+      "tds": 130475,
+      "payout": 136237427,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 34,
+      "monthly": {
+        "order": {
+          "2026-04": {
+            "grossSales": 115070305,
+            "sellingRevenue": 49178465,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 41157997,
+            "sellingRevenue": 17324386,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 49981310,
+            "sellingRevenue": 21753012,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 51420151,
+            "sellingRevenue": 21639491,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 68512427,
+            "sellingRevenue": 28939203,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 47298425,
+            "sellingRevenue": 20251102,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-05": {
+            "netPayout": 36194492,
+            "tcs": 0,
+            "tds": 35015
+          },
+          "2026-06": {
+            "netPayout": 33323448,
+            "tcs": 0,
+            "tds": 31487
+          },
+          "2026-07": {
+            "netPayout": 23042661,
+            "tcs": 0,
+            "tds": 21754
+          },
+          "2026-09": {
+            "netPayout": 19131922,
+            "tcs": 0,
+            "tds": 18696
+          },
+          "2026-08": {
+            "netPayout": 21191419,
+            "tcs": 0,
+            "tds": 20251
+          },
+          "2026-10": {
+            "netPayout": 3353485,
+            "tcs": 0,
+            "tds": 3272
+          }
+        }
+      }
+    },
+    {
+      "platform": "croma",
+      "orderLines": 100,
+      "units": 117,
+      "grossSales": 14485836,
+      "sellerDiscounts": 8103467,
+      "sellingRevenue": 6382369,
+      "shippingCollected": 0,
+      "cancellations": 337627,
+      "refunds": 1228983,
+      "unmatched": 0,
+      "netRevenue": 4815759,
+      "fees": {
+        "commission": 454608,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 428648,
+      "feesEstimated": 25960,
+      "gstOnFees": 81829,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 454608,
+      "netSettlement": 4361151,
+      "cogs": 2104400,
+      "packaging": 90400,
+      "adSpend": 376560,
+      "contribution": 1789791,
+      "tcs": 22702,
+      "tds": 4545,
+      "payout": 4825048,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 8,
+      "monthly": {
+        "order": {
+          "2026-05": {
+            "grossSales": 1574152,
+            "sellingRevenue": 654660,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 2552370,
+            "sellingRevenue": 1127371,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 3614997,
+            "sellingRevenue": 1617458,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 2113982,
+            "sellingRevenue": 944998,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 2589743,
+            "sellingRevenue": 1145510,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2040592,
+            "sellingRevenue": 892372,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-06": {
+            "netPayout": 582901,
+            "tcs": 2743,
+            "tds": 550
+          },
+          "2026-07": {
+            "netPayout": 744908,
+            "tcs": 3503,
+            "tds": 700
+          },
+          "2026-08": {
+            "netPayout": 1517004,
+            "tcs": 7139,
+            "tds": 1431
+          },
+          "2026-09": {
+            "netPayout": 746437,
+            "tcs": 3512,
+            "tds": 703
+          },
+          "2026-05": {
+            "netPayout": 825953,
+            "tcs": 3886,
+            "tds": 777
+          },
+          "2026-10": {
+            "netPayout": 407845,
+            "tcs": 1919,
+            "tds": 384
+          },
+          "2026-04": {
+            "netPayout": 0,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "custom_offline",
+      "orderLines": 150,
+      "units": 286,
+      "grossSales": 17052148,
+      "sellerDiscounts": 0,
+      "sellingRevenue": 17052148,
+      "shippingCollected": 0,
+      "cancellations": 698750,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 16353398,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 0,
+      "feesEstimated": 0,
+      "gstOnFees": 0,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 0,
+      "netSettlement": 16353398,
+      "cogs": 6811800,
+      "packaging": 244400,
+      "adSpend": 0,
+      "contribution": 9297198,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 0,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 0,
+      "monthly": {
+        "order": {
+          "2026-09": {
+            "grossSales": 4370218,
+            "sellingRevenue": 4370218,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 5222063,
+            "sellingRevenue": 5222063,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 1891385,
+            "sellingRevenue": 1891385,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1592701,
+            "sellingRevenue": 1592701,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 2220778,
+            "sellingRevenue": 2220778,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 1755003,
+            "sellingRevenue": 1755003,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {}
+      }
+    },
+    {
+      "platform": "dukaan",
+      "orderLines": 250,
+      "units": 269,
+      "grossSales": 29675277,
+      "sellerDiscounts": 14793657,
+      "sellingRevenue": 14881620,
+      "shippingCollected": 0,
+      "cancellations": 639705,
+      "refunds": 2210991,
+      "unmatched": 0,
+      "netRevenue": 12030924,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 455061,
+        "shippingFee": 1582900,
+        "reverseShippingFee": 81600,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 699300
+      },
+      "feesSettled": 2753361,
+      "feesEstimated": 65500,
+      "gstOnFees": 507397,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2818861,
+      "netSettlement": 9212063,
+      "cogs": 4996700,
+      "packaging": 239400,
+      "adSpend": 1640660,
+      "contribution": 2335303,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 10846032,
+      "overcharges": [
+        {
+          "ref": "#1247",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1255",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1278",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1280",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1338",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1339",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 6000
+        },
+        {
+          "ref": "#1442",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 5,
+      "monthly": {
+        "order": {
+          "2026-09": {
+            "grossSales": 6215409,
+            "sellingRevenue": 3126187,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4565340,
+            "sellingRevenue": 2258595,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3636637,
+            "sellingRevenue": 1785561,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 6094722,
+            "sellingRevenue": 3056037,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 5832289,
+            "sellingRevenue": 2961844,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 3330880,
+            "sellingRevenue": 1693396,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 2334801,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 1515776,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 1326641,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 2730478,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 873273,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 2103671,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": -38608,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "ebay",
+      "orderLines": 150,
+      "units": 174,
+      "grossSales": 36509400,
+      "sellerDiscounts": 18246336,
+      "sellingRevenue": 18263064,
+      "shippingCollected": 0,
+      "cancellations": 1319445,
+      "refunds": 1666665,
+      "unmatched": 0,
+      "netRevenue": 15276954,
+      "fees": {
+        "commission": 2078062,
+        "fixedFee": 352837,
+        "collectionFee": 0,
+        "shippingFee": 10766968,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 13030067,
+      "feesEstimated": 167800,
+      "gstOnFees": 2371085,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": -13238,
+      "platformCosts": 13211105,
+      "netSettlement": 2065849,
+      "cogs": 3199300,
+      "packaging": 142800,
+      "adSpend": 0,
+      "contribution": -1276251,
+      "tcs": 0,
+      "tds": 0,
+      "payout": -179081,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 2,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 8518771,
+            "sellingRevenue": 4243396,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3963802,
+            "sellingRevenue": 2034928,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 6695950,
+            "sellingRevenue": 3253624,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 7551247,
+            "sellingRevenue": 3860120,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 4360982,
+            "sellingRevenue": 2136859,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 5418648,
+            "sellingRevenue": 2734137,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 346071,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": -292691,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 313483,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": -38669,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 46942,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 17049,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": -571266,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "etsy",
+      "orderLines": 150,
+      "units": 178,
+      "grossSales": 34752990,
+      "sellerDiscounts": 16484446,
+      "sellingRevenue": 18268544,
+      "shippingCollected": 0,
+      "cancellations": 739399,
+      "refunds": 1558696,
+      "unmatched": 0,
+      "netRevenue": 15970449,
+      "fees": {
+        "commission": 1059489,
+        "fixedFee": 240354,
+        "collectionFee": 700624,
+        "shippingFee": 9651151,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 11198865,
+      "feesEstimated": 452753,
+      "gstOnFees": 2102227,
+      "reimbursements": 211481,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": -12173,
+      "platformCosts": 11452310,
+      "netSettlement": 4518139,
+      "cogs": 2568500,
+      "packaging": 137600,
+      "adSpend": 0,
+      "contribution": 1812039,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 2119780,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 4059749,
+            "sellingRevenue": 2171620,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 8047063,
+            "sellingRevenue": 4246372,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4716381,
+            "sellingRevenue": 2420859,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 7434990,
+            "sellingRevenue": 3782552,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 6317524,
+            "sellingRevenue": 3394708,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 4177283,
+            "sellingRevenue": 2252433,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": -8413,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 483451,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 575092,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 364796,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 337260,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 223366,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 144228,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "firstcry",
+      "orderLines": 200,
+      "units": 225,
+      "grossSales": 28658184,
+      "sellerDiscounts": 14610147,
+      "sellingRevenue": 14048037,
+      "shippingCollected": 0,
+      "cancellations": 326477,
+      "refunds": 3381819,
+      "unmatched": 0,
+      "netRevenue": 10339741,
+      "fees": {
+        "commission": 2612685,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 1606500,
+        "reverseShippingFee": 350500,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 4086872,
+      "feesEstimated": 482813,
+      "gstOnFees": 822567,
+      "reimbursements": 156240,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4413445,
+      "netSettlement": 5926296,
+      "cogs": 4249400,
+      "packaging": 191600,
+      "adSpend": 746790,
+      "contribution": 738506,
+      "tcs": 45646,
+      "tds": 9138,
+      "payout": 5005126,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 16,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 3410453,
+            "sellingRevenue": 1642778,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 7201192,
+            "sellingRevenue": 3559212,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 3756363,
+            "sellingRevenue": 1760918,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3590937,
+            "sellingRevenue": 1805277,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 5720236,
+            "sellingRevenue": 2845817,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4979003,
+            "sellingRevenue": 2434035,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1043609,
+            "tcs": 8514,
+            "tds": 1706
+          },
+          "2026-09": {
+            "netPayout": 863886,
+            "tcs": 8341,
+            "tds": 1669
+          },
+          "2026-05": {
+            "netPayout": 496930,
+            "tcs": 5520,
+            "tds": 1107
+          },
+          "2026-06": {
+            "netPayout": 820543,
+            "tcs": 7031,
+            "tds": 1408
+          },
+          "2026-08": {
+            "netPayout": 1332796,
+            "tcs": 12300,
+            "tds": 2460
+          },
+          "2026-10": {
+            "netPayout": 205701,
+            "tcs": 1749,
+            "tds": 351
+          },
+          "2026-04": {
+            "netPayout": 241661,
+            "tcs": 2191,
+            "tds": 437
+          }
+        }
+      }
+    },
+    {
+      "platform": "flipkart",
+      "orderLines": 3064,
+      "units": 3489,
+      "grossSales": 182781825,
+      "sellerDiscounts": 0,
+      "sellingRevenue": 182781825,
+      "shippingCollected": 6924677,
+      "cancellations": 7576665,
+      "refunds": 34532895,
+      "unmatched": -408654,
+      "netRevenue": 147188288,
+      "fees": {
+        "commission": 3910955,
+        "fixedFee": 5847000,
+        "collectionFee": 3456169,
+        "shippingFee": 23809500,
+        "reverseShippingFee": 4164500,
+        "fulfilmentFee": 1153200,
+        "storageFee": 723700,
+        "otherFees": 0
+      },
+      "feesSettled": 39393065,
+      "feesEstimated": 3671959,
+      "gstOnFees": 7751729,
+      "reimbursements": 809550,
+      "penalties": 388000,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 42643474,
+      "netSettlement": 104544814,
+      "cogs": 65787200,
+      "packaging": 3044000,
+      "adSpend": 12110484,
+      "contribution": 23603130,
+      "tcs": 666110,
+      "tds": 133118,
+      "payout": 100718283,
+      "overcharges": [
+        {
+          "ref": "OD3000876310959470",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000880579666808",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000886489427442",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000887421584779",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000888362207810",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000894042215901",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000897153718571",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000898719607505",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000902607456216",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000905463747804",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000906511806418",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000908212311334",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000911109421023",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "OD3000912147245176",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000918574164877",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000920755726457",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000931682646084",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000932900635600",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000935700659406",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000944107711729",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000944159366705",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000949864611591",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000953399747231",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000956117351446",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 5000
+        },
+        {
+          "ref": "OD3000958301769733",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000960323396142",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000961738195539",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000963756857256",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000964104936632",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000964304850773",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000972634219955",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000972815640550",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 1500
+        },
+        {
+          "ref": "OD3000974625251375",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "OD3000976616653948",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2500
+        },
+        {
+          "ref": "OD3000983533699276",
+          "provider": "flipkart",
+          "component": "shippingFee",
+          "amount": 2000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 5,
+      "estimatedLines": 262,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 25691438,
+            "sellingRevenue": 25691438,
+            "shippingCollected": 1012699
+          },
+          "2026-05": {
+            "grossSales": 27205640,
+            "sellingRevenue": 27205640,
+            "shippingCollected": 1116852
+          },
+          "2026-07": {
+            "grossSales": 30190221,
+            "sellingRevenue": 30190221,
+            "shippingCollected": 1070357
+          },
+          "2026-08": {
+            "grossSales": 34989287,
+            "sellingRevenue": 34989287,
+            "shippingCollected": 1364708
+          },
+          "2026-04": {
+            "grossSales": 26472647,
+            "sellingRevenue": 26472647,
+            "shippingCollected": 977558
+          },
+          "2026-09": {
+            "grossSales": 38232592,
+            "sellingRevenue": 38232592,
+            "shippingCollected": 1382503
+          }
+        },
+        "settlement": {
+          "2026-06": {
+            "netPayout": 14529632,
+            "tcs": 98201,
+            "tds": 19619
+          },
+          "2026-05": {
+            "netPayout": 17169215,
+            "tcs": 111557,
+            "tds": 22295
+          },
+          "2026-08": {
+            "netPayout": 21186596,
+            "tcs": 137180,
+            "tds": 27420
+          },
+          "2026-04": {
+            "netPayout": 6840012,
+            "tcs": 45735,
+            "tds": 9136
+          },
+          "2026-10": {
+            "netPayout": 3816195,
+            "tcs": 25983,
+            "tds": 5195
+          },
+          "2026-07": {
+            "netPayout": 16062777,
+            "tcs": 108515,
+            "tds": 21681
+          },
+          "2026-09": {
+            "netPayout": 21113856,
+            "tcs": 138939,
+            "tds": 27772
+          }
+        }
+      }
+    },
+    {
+      "platform": "flipkart_wholesale",
+      "orderLines": 100,
+      "units": 115,
+      "grossSales": 11864810,
+      "sellerDiscounts": 7436052,
+      "sellingRevenue": 4428758,
+      "shippingCollected": 0,
+      "cancellations": 94324,
+      "refunds": 565769,
+      "unmatched": 0,
+      "netRevenue": 3768665,
+      "fees": {
+        "commission": 210700,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 189095,
+      "feesEstimated": 21605,
+      "gstOnFees": 37929,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 210700,
+      "netSettlement": 3557965,
+      "cogs": 2162500,
+      "packaging": 103000,
+      "adSpend": 246555,
+      "contribution": 1045910,
+      "tcs": 16978,
+      "tds": 3396,
+      "payout": 3511691,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-05": {
+            "grossSales": 1011267,
+            "sellingRevenue": 413502,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1962185,
+            "sellingRevenue": 722902,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 2576440,
+            "sellingRevenue": 933337,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 1983308,
+            "sellingRevenue": 732876,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 2602718,
+            "sellingRevenue": 947429,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 1728892,
+            "sellingRevenue": 678712,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-06": {
+            "netPayout": 403008,
+            "tcs": 1978,
+            "tds": 396
+          },
+          "2026-05": {
+            "netPayout": 707255,
+            "tcs": 3450,
+            "tds": 690
+          },
+          "2026-10": {
+            "netPayout": 126018,
+            "tcs": 689,
+            "tds": 139
+          },
+          "2026-09": {
+            "netPayout": 703550,
+            "tcs": 3402,
+            "tds": 680
+          },
+          "2026-08": {
+            "netPayout": 606797,
+            "tcs": 2888,
+            "tds": 577
+          },
+          "2026-07": {
+            "netPayout": 678968,
+            "tcs": 3185,
+            "tds": 637
+          },
+          "2026-04": {
+            "netPayout": 286095,
+            "tcs": 1386,
+            "tds": 277
+          }
+        }
+      }
+    },
+    {
+      "platform": "indiamart",
+      "orderLines": 120,
+      "units": 3110,
+      "grossSales": 147000423,
+      "sellerDiscounts": 0,
+      "sellingRevenue": 147000423,
+      "shippingCollected": 0,
+      "cancellations": 3329983,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 143670440,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 2100000
+      },
+      "feesSettled": 2100000,
+      "feesEstimated": 0,
+      "gstOnFees": 378000,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2100000,
+      "netSettlement": 141570440,
+      "cogs": 83200000,
+      "packaging": 2802000,
+      "adSpend": 0,
+      "contribution": 55568440,
+      "tcs": 0,
+      "tds": 0,
+      "payout": -2478000,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 0,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 25694274,
+            "sellingRevenue": 25694274,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 41825193,
+            "sellingRevenue": 41825193,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 22096606,
+            "sellingRevenue": 22096606,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 23392529,
+            "sellingRevenue": 23392529,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 15616774,
+            "sellingRevenue": 15616774,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 18375047,
+            "sellingRevenue": 18375047,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-04": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": -413000,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "instamojo",
+      "orderLines": 250,
+      "units": 268,
+      "grossSales": 28177748,
+      "sellerDiscounts": 14123899,
+      "sellingRevenue": 14053849,
+      "shippingCollected": 0,
+      "cancellations": 362169,
+      "refunds": 2047946,
+      "unmatched": 0,
+      "netRevenue": 11643734,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 468247,
+        "shippingFee": 1408400,
+        "reverseShippingFee": 54200,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 1886047,
+      "feesEstimated": 44800,
+      "gstOnFees": 347559,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 1930847,
+      "netSettlement": 9712887,
+      "cogs": 4709300,
+      "packaging": 232800,
+      "adSpend": 1551280,
+      "contribution": 3219507,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 10931158,
+      "overcharges": [
+        {
+          "ref": "#1553",
+          "provider": "ecom_express",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1599",
+          "provider": "ecom_express",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1611",
+          "provider": "ecom_express",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1642",
+          "provider": "ecom_express",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1659",
+          "provider": "ecom_express",
+          "component": "shippingFee",
+          "amount": 2800
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 6,
+      "monthly": {
+        "order": {
+          "2026-04": {
+            "grossSales": 4038340,
+            "sellingRevenue": 2054241,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 4479433,
+            "sellingRevenue": 2187077,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3703218,
+            "sellingRevenue": 1853786,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 5333042,
+            "sellingRevenue": 2618663,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 4934784,
+            "sellingRevenue": 2481684,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 5688931,
+            "sellingRevenue": 2858398,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-04": {
+            "netPayout": 1481838,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 1766560,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 1920865,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 2212570,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 1370033,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 1955645,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 223647,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "jiomart",
+      "orderLines": 300,
+      "units": 342,
+      "grossSales": 31957986,
+      "sellerDiscounts": 16893134,
+      "sellingRevenue": 15064852,
+      "shippingCollected": 0,
+      "cancellations": 522848,
+      "refunds": 2618883,
+      "unmatched": 0,
+      "netRevenue": 11923121,
+      "fees": {
+        "commission": 960728,
+        "fixedFee": 331000,
+        "collectionFee": 0,
+        "shippingFee": 2254400,
+        "reverseShippingFee": 386000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 3685190,
+      "feesEstimated": 246938,
+      "gstOnFees": 707798,
+      "reimbursements": 74830,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 3857298,
+      "netSettlement": 8065823,
+      "cogs": 5113600,
+      "packaging": 314600,
+      "adSpend": 827475,
+      "contribution": 1810148,
+      "tcs": 55577,
+      "tds": 11122,
+      "payout": 7850494,
+      "overcharges": [
+        {
+          "ref": "ORD00144741#HOM-PLANT-POT",
+          "provider": "jiomart",
+          "component": "shippingFee",
+          "amount": 1800
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 15,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 6739249,
+            "sellingRevenue": 3195172,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2590387,
+            "sellingRevenue": 1226907,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 4665378,
+            "sellingRevenue": 2241907,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 6689216,
+            "sellingRevenue": 3120089,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 4911035,
+            "sellingRevenue": 2296284,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 6362721,
+            "sellingRevenue": 2984493,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1587318,
+            "tcs": 11221,
+            "tds": 2246
+          },
+          "2026-04": {
+            "netPayout": 498612,
+            "tcs": 3181,
+            "tds": 637
+          },
+          "2026-05": {
+            "netPayout": 622151,
+            "tcs": 4370,
+            "tds": 875
+          },
+          "2026-06": {
+            "netPayout": 1485513,
+            "tcs": 11219,
+            "tds": 2246
+          },
+          "2026-08": {
+            "netPayout": 2140568,
+            "tcs": 14147,
+            "tds": 2828
+          },
+          "2026-09": {
+            "netPayout": 1085987,
+            "tcs": 7915,
+            "tds": 1586
+          },
+          "2026-10": {
+            "netPayout": 430345,
+            "tcs": 3524,
+            "tds": 704
+          }
+        }
+      }
+    },
+    {
+      "platform": "lenskart",
+      "orderLines": 100,
+      "units": 115,
+      "grossSales": 14702132,
+      "sellerDiscounts": 8118915,
+      "sellingRevenue": 6583217,
+      "shippingCollected": 0,
+      "cancellations": 319745,
+      "refunds": 1045592,
+      "unmatched": 0,
+      "netRevenue": 5217880,
+      "fees": {
+        "commission": 1238220,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 1164480,
+      "feesEstimated": 73740,
+      "gstOnFees": 222856,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 1238220,
+      "netSettlement": 3979660,
+      "cogs": 2816500,
+      "packaging": 86400,
+      "adSpend": 388410,
+      "contribution": 688350,
+      "tcs": 24528,
+      "tds": 4915,
+      "payout": 4384892,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 1897204,
+            "sellingRevenue": 856525,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1430934,
+            "sellingRevenue": 621695,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 1032967,
+            "sellingRevenue": 447203,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 4124666,
+            "sellingRevenue": 1914576,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 3895936,
+            "sellingRevenue": 1742541,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 2320425,
+            "sellingRevenue": 1000677,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1261168,
+            "tcs": 7040,
+            "tds": 1411
+          },
+          "2026-05": {
+            "netPayout": 430643,
+            "tcs": 2425,
+            "tds": 486
+          },
+          "2026-08": {
+            "netPayout": 1178219,
+            "tcs": 6580,
+            "tds": 1318
+          },
+          "2026-09": {
+            "netPayout": 812725,
+            "tcs": 4536,
+            "tds": 910
+          },
+          "2026-06": {
+            "netPayout": 641044,
+            "tcs": 3605,
+            "tds": 722
+          },
+          "2026-10": {
+            "netPayout": 15634,
+            "tcs": 88,
+            "tds": 17
+          },
+          "2026-04": {
+            "netPayout": 45459,
+            "tcs": 254,
+            "tds": 51
+          }
+        }
+      }
+    },
+    {
+      "platform": "magento",
+      "orderLines": 250,
+      "units": 267,
+      "grossSales": 28671368,
+      "sellerDiscounts": 14574836,
+      "sellingRevenue": 14096532,
+      "shippingCollected": 0,
+      "cancellations": 563291,
+      "refunds": 2415028,
+      "unmatched": 0,
+      "netRevenue": 11118213,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 456569,
+        "shippingFee": 1340400,
+        "reverseShippingFee": 71000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 2800000
+      },
+      "feesSettled": 4634969,
+      "feesEstimated": 33000,
+      "gstOnFees": 840258,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4667969,
+      "netSettlement": 6450244,
+      "cogs": 4586200,
+      "packaging": 225800,
+      "adSpend": 1562320,
+      "contribution": 75924,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 7221813,
+      "overcharges": [
+        {
+          "ref": "#1322",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1324",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1435",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1458",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1508",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1520",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        },
+        {
+          "ref": "#1555",
+          "provider": "xpressbees",
+          "component": "shippingFee",
+          "amount": 2600
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 4,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 6304707,
+            "sellingRevenue": 3146261,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3544270,
+            "sellingRevenue": 1737538,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 5813078,
+            "sellingRevenue": 2857902,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 3941346,
+            "sellingRevenue": 1873075,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 5164067,
+            "sellingRevenue": 2509401,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3903900,
+            "sellingRevenue": 1972355,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1840693,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 1755993,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 885627,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 990345,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 1027068,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 39821,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 682266,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "meesho",
+      "orderLines": 3000,
+      "units": 3447,
+      "grossSales": 371528185,
+      "sellerDiscounts": 222957439,
+      "sellingRevenue": 148570746,
+      "shippingCollected": 0,
+      "cancellations": 6068047,
+      "refunds": 33084775,
+      "unmatched": -440636,
+      "netRevenue": 108977288,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 22244400,
+        "reverseShippingFee": 2795200,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 22377400,
+      "feesEstimated": 2662200,
+      "gstOnFees": 4507128,
+      "reimbursements": 856620,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 24182980,
+      "netSettlement": 84794308,
+      "cogs": 59258100,
+      "packaging": 2990000,
+      "adSpend": 6562680,
+      "contribution": 15983528,
+      "tcs": 474806,
+      "tds": 94912,
+      "payout": 71283908,
+      "overcharges": [
+        {
+          "ref": "000337270545387724_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000337398910124469_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000341370378286054_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000343022937675235_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000343307650110825_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000343338126012397_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 3600
+        },
+        {
+          "ref": "000345163760539467_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000347054750339295_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000348990281128052_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 3600
+        },
+        {
+          "ref": "000351494763345190_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000351678807097277_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000353237850894170_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000355992278825770_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000356137665452865_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000356340105239562_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000357657933580766_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 5400
+        },
+        {
+          "ref": "000360699180241116_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000361496968625755_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000362682234995847_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000362899101519015_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000366740439132880_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000368671128479241_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000372389417451858_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 5400
+        },
+        {
+          "ref": "000373027788497789_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000377760424994990_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000382447281011869_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000386654888526663_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000386945938044289_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000388536212993647_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 1800
+        },
+        {
+          "ref": "000389441412365816_1",
+          "provider": "meesho",
+          "component": "shippingFee",
+          "amount": 5400
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 5,
+      "estimatedLines": 340,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 61881067,
+            "sellingRevenue": 24782257,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 73548273,
+            "sellingRevenue": 29304293,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 57274140,
+            "sellingRevenue": 22809283,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 49324111,
+            "sellingRevenue": 19862054,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 62089277,
+            "sellingRevenue": 24723235,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 67411317,
+            "sellingRevenue": 27089624,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 17465683,
+            "tcs": 105024,
+            "tds": 20981
+          },
+          "2026-05": {
+            "netPayout": 12049691,
+            "tcs": 70818,
+            "tds": 14159
+          },
+          "2026-04": {
+            "netPayout": 4480268,
+            "tcs": 27932,
+            "tds": 5584
+          },
+          "2026-06": {
+            "netPayout": 12593428,
+            "tcs": 76006,
+            "tds": 15198
+          },
+          "2026-09": {
+            "netPayout": 18398383,
+            "tcs": 110225,
+            "tds": 22040
+          },
+          "2026-08": {
+            "netPayout": 14040417,
+            "tcs": 84801,
+            "tds": 16950
+          }
+        }
+      }
+    },
+    {
+      "platform": "myntra",
+      "orderLines": 300,
+      "units": 347,
+      "grossSales": 40071673,
+      "sellerDiscounts": 19217881,
+      "sellingRevenue": 20853792,
+      "shippingCollected": 0,
+      "cancellations": 604316,
+      "refunds": 5513409,
+      "unmatched": 0,
+      "netRevenue": 14736067,
+      "fees": {
+        "commission": 3087038,
+        "fixedFee": 838500,
+        "collectionFee": 0,
+        "shippingFee": 2398000,
+        "reverseShippingFee": 549000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 6286064,
+      "feesEstimated": 586474,
+      "gstOnFees": 1237034,
+      "reimbursements": 641200,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 6231338,
+      "netSettlement": 8504729,
+      "cogs": 5237900,
+      "packaging": 275600,
+      "adSpend": 1140630,
+      "contribution": 1850599,
+      "tcs": 66766,
+      "tds": 13344,
+      "payout": 7950055,
+      "overcharges": [
+        {
+          "ref": "ITM00269081",
+          "provider": "myntra",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00266188#MYN-APP-JGR-GRY-M",
+          "provider": "myntra",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00267964#MYN-BTY-FCW-NEEM",
+          "provider": "myntra",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00269856#MYN-APP-KRT-MAR-L",
+          "provider": "myntra",
+          "component": "shippingFee",
+          "amount": 4000
+        }
+      ],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 25,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 7342777,
+            "sellingRevenue": 3944261,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 5450878,
+            "sellingRevenue": 2747478,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 5518856,
+            "sellingRevenue": 2853562,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 6501372,
+            "sellingRevenue": 3332387,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 9136745,
+            "sellingRevenue": 4740330,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 6121045,
+            "sellingRevenue": 3235774,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 1361771,
+            "tcs": 13128,
+            "tds": 2624
+          },
+          "2026-08": {
+            "netPayout": 2153221,
+            "tcs": 17221,
+            "tds": 3437
+          },
+          "2026-05": {
+            "netPayout": 994163,
+            "tcs": 8681,
+            "tds": 1737
+          },
+          "2026-04": {
+            "netPayout": 405647,
+            "tcs": 4011,
+            "tds": 803
+          },
+          "2026-06": {
+            "netPayout": 1131863,
+            "tcs": 9180,
+            "tds": 1838
+          },
+          "2026-07": {
+            "netPayout": 1631906,
+            "tcs": 11580,
+            "tds": 2314
+          },
+          "2026-10": {
+            "netPayout": 271484,
+            "tcs": 2965,
+            "tds": 591
+          }
+        }
+      }
+    },
+    {
+      "platform": "noon",
+      "orderLines": 120,
+      "units": 133,
+      "grossSales": 27339989,
+      "sellerDiscounts": 13805001,
+      "sellingRevenue": 13534988,
+      "shippingCollected": 0,
+      "cancellations": 32054,
+      "refunds": 1290061,
+      "unmatched": 0,
+      "netRevenue": 12212873,
+      "fees": {
+        "commission": 1504823,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 6366457,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 7316811,
+      "feesEstimated": 554469,
+      "gstOnFees": 1417014,
+      "reimbursements": 66543,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 17215,
+      "platformCosts": 7787522,
+      "netSettlement": 4425351,
+      "cogs": 2949800,
+      "packaging": 129400,
+      "adSpend": 0,
+      "contribution": 1346151,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 2839619,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 8,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 6784610,
+            "sellingRevenue": 3275898,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 3083758,
+            "sellingRevenue": 1581702,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 4657457,
+            "sellingRevenue": 2346634,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 4433169,
+            "sellingRevenue": 2094036,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 2732636,
+            "sellingRevenue": 1351571,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 5648359,
+            "sellingRevenue": 2885147,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1059366,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 331653,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 446921,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 510519,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 265694,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 175084,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 50382,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "nykaa",
+      "orderLines": 300,
+      "units": 332,
+      "grossSales": 21100210,
+      "sellerDiscounts": 8714309,
+      "sellingRevenue": 12385901,
+      "shippingCollected": 0,
+      "cancellations": 508132,
+      "refunds": 963894,
+      "unmatched": 0,
+      "netRevenue": 10913875,
+      "fees": {
+        "commission": 2578800,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 2142000,
+        "reverseShippingFee": 182000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 4673500,
+      "feesEstimated": 229300,
+      "gstOnFees": 882457,
+      "reimbursements": 61460,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4841340,
+      "netSettlement": 6072535,
+      "cogs": 3344200,
+      "packaging": 256800,
+      "adSpend": 730770,
+      "contribution": 1740765,
+      "tcs": 51910,
+      "tds": 10411,
+      "payout": 6736353,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 15,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 4593631,
+            "sellingRevenue": 2758382,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2462537,
+            "sellingRevenue": 1453128,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 3607707,
+            "sellingRevenue": 2101608,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 2717873,
+            "sellingRevenue": 1578218,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 4263893,
+            "sellingRevenue": 2507876,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3454569,
+            "sellingRevenue": 1986689,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1713120,
+            "tcs": 13554,
+            "tds": 2720
+          },
+          "2026-05": {
+            "netPayout": 915578,
+            "tcs": 6819,
+            "tds": 1368
+          },
+          "2026-10": {
+            "netPayout": 304978,
+            "tcs": 2368,
+            "tds": 475
+          },
+          "2026-06": {
+            "netPayout": 1320958,
+            "tcs": 9840,
+            "tds": 1973
+          },
+          "2026-09": {
+            "netPayout": 1255618,
+            "tcs": 9757,
+            "tds": 1953
+          },
+          "2026-07": {
+            "netPayout": 987090,
+            "tcs": 7881,
+            "tds": 1582
+          },
+          "2026-04": {
+            "netPayout": 239011,
+            "tcs": 1691,
+            "tds": 340
+          }
+        }
+      }
+    },
+    {
+      "platform": "pepperfry",
+      "orderLines": 150,
+      "units": 165,
+      "grossSales": 55805049,
+      "sellerDiscounts": 27345073,
+      "sellingRevenue": 28459976,
+      "shippingCollected": 0,
+      "cancellations": 356952,
+      "refunds": 1861587,
+      "unmatched": 0,
+      "netRevenue": 26241437,
+      "fees": {
+        "commission": 5117490,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 5710000,
+        "reverseShippingFee": 425000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 10416044,
+      "feesEstimated": 836446,
+      "gstOnFees": 2025432,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 11252490,
+      "netSettlement": 14988947,
+      "cogs": 3363200,
+      "packaging": 167000,
+      "adSpend": 1541710,
+      "contribution": 9917037,
+      "tcs": 122113,
+      "tds": 24431,
+      "payout": 14009939,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 12,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 5616073,
+            "sellingRevenue": 2858419,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 12201437,
+            "sellingRevenue": 6260424,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 9393004,
+            "sellingRevenue": 4760496,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 7460532,
+            "sellingRevenue": 3770926,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 12312979,
+            "sellingRevenue": 6265028,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 8821024,
+            "sellingRevenue": 4544683,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1237946,
+            "tcs": 11260,
+            "tds": 2253
+          },
+          "2026-05": {
+            "netPayout": 2455589,
+            "tcs": 22253,
+            "tds": 4452
+          },
+          "2026-06": {
+            "netPayout": 3016731,
+            "tcs": 28882,
+            "tds": 5778
+          },
+          "2026-04": {
+            "netPayout": 658559,
+            "tcs": 5053,
+            "tds": 1011
+          },
+          "2026-08": {
+            "netPayout": 2960596,
+            "tcs": 24075,
+            "tds": 4817
+          },
+          "2026-09": {
+            "netPayout": 2495212,
+            "tcs": 19825,
+            "tds": 3966
+          },
+          "2026-10": {
+            "netPayout": 1185306,
+            "tcs": 10765,
+            "tds": 2154
+          }
+        }
+      }
+    },
+    {
+      "platform": "purplle",
+      "orderLines": 200,
+      "units": 233,
+      "grossSales": 13433637,
+      "sellerDiscounts": 5521956,
+      "sellingRevenue": 7911681,
+      "shippingCollected": 0,
+      "cancellations": 180509,
+      "refunds": 1149916,
+      "unmatched": 0,
+      "netRevenue": 6581256,
+      "fees": {
+        "commission": 1554560,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 1368000,
+        "reverseShippingFee": 192500,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 2863880,
+      "feesEstimated": 251180,
+      "gstOnFees": 560668,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 3115060,
+      "netSettlement": 3466196,
+      "cogs": 2210200,
+      "packaging": 182400,
+      "adSpend": 466790,
+      "contribution": 606806,
+      "tcs": 30085,
+      "tds": 6011,
+      "payout": 3684564,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 16,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 2072964,
+            "sellingRevenue": 1234657,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3690169,
+            "sellingRevenue": 2169576,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 2517371,
+            "sellingRevenue": 1467961,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 2157541,
+            "sellingRevenue": 1285337,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 1607880,
+            "sellingRevenue": 930338,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1387712,
+            "sellingRevenue": 823812,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 687407,
+            "tcs": 5891,
+            "tds": 1175
+          },
+          "2026-10": {
+            "netPayout": 230503,
+            "tcs": 1846,
+            "tds": 369
+          },
+          "2026-07": {
+            "netPayout": 714697,
+            "tcs": 5994,
+            "tds": 1198
+          },
+          "2026-09": {
+            "netPayout": 666483,
+            "tcs": 5193,
+            "tds": 1037
+          },
+          "2026-06": {
+            "netPayout": 773792,
+            "tcs": 6026,
+            "tds": 1206
+          },
+          "2026-05": {
+            "netPayout": 489078,
+            "tcs": 4109,
+            "tds": 821
+          },
+          "2026-04": {
+            "netPayout": 122604,
+            "tcs": 1026,
+            "tds": 205
+          }
+        }
+      }
+    },
+    {
+      "platform": "reliance_digital",
+      "orderLines": 100,
+      "units": 114,
+      "grossSales": 16499649,
+      "sellerDiscounts": 9265070,
+      "sellingRevenue": 7234579,
+      "shippingCollected": 0,
+      "cancellations": 512373,
+      "refunds": 814237,
+      "unmatched": 0,
+      "netRevenue": 5907969,
+      "fees": {
+        "commission": 561360,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 542856,
+      "feesEstimated": 18504,
+      "gstOnFees": 101047,
+      "reimbursements": 38360,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 523000,
+      "netSettlement": 5384969,
+      "cogs": 2876800,
+      "packaging": 88000,
+      "adSpend": 426840,
+      "contribution": 1993329,
+      "tcs": 28559,
+      "tds": 5710,
+      "payout": 6103619,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 6,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 3362879,
+            "sellingRevenue": 1464917,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3363726,
+            "sellingRevenue": 1476527,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 2915844,
+            "sellingRevenue": 1282626,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3438133,
+            "sellingRevenue": 1519832,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 2245000,
+            "sellingRevenue": 1006440,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1174067,
+            "sellingRevenue": 484237,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 1202192,
+            "tcs": 5656,
+            "tds": 1129
+          },
+          "2026-05": {
+            "netPayout": 555167,
+            "tcs": 2613,
+            "tds": 523
+          },
+          "2026-06": {
+            "netPayout": 1854085,
+            "tcs": 8745,
+            "tds": 1749
+          },
+          "2026-08": {
+            "netPayout": 1183907,
+            "tcs": 5571,
+            "tds": 1116
+          },
+          "2026-07": {
+            "netPayout": 1038382,
+            "tcs": 4705,
+            "tds": 939
+          },
+          "2026-10": {
+            "netPayout": 216485,
+            "tcs": 1018,
+            "tds": 204
+          },
+          "2026-04": {
+            "netPayout": 53401,
+            "tcs": 251,
+            "tds": 50
+          }
+        }
+      }
+    },
+    {
+      "platform": "shopify",
+      "orderLines": 400,
+      "units": 434,
+      "grossSales": 54908500,
+      "sellerDiscounts": 27302041,
+      "sellingRevenue": 27606459,
+      "shippingCollected": 0,
+      "cancellations": 1123820,
+      "refunds": 4442301,
+      "unmatched": 0,
+      "netRevenue": 22040338,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 821626,
+        "shippingFee": 2533800,
+        "reverseShippingFee": 101100,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 1395800
+      },
+      "feesSettled": 4721426,
+      "feesEstimated": 130900,
+      "gstOnFees": 873421,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4852326,
+      "netSettlement": 17188012,
+      "cogs": 7904800,
+      "packaging": 381800,
+      "adSpend": 3658176,
+      "contribution": 5243236,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 20121815,
+      "overcharges": [
+        {
+          "ref": "#1441",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1473",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1510",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1536",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1554",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1599",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1608",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1689",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1694",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1699",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1800",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 15,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 7238023,
+            "sellingRevenue": 3607607,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 8363944,
+            "sellingRevenue": 4200044,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 12765307,
+            "sellingRevenue": 6426861,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 9574590,
+            "sellingRevenue": 4816383,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 8248071,
+            "sellingRevenue": 4206555,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 8718565,
+            "sellingRevenue": 4349009,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-06": {
+            "netPayout": 3434129,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 2703359,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 2652696,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 2096805,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 535850,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 4314058,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 4384918,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "snapdeal",
+      "orderLines": 300,
+      "units": 351,
+      "grossSales": 40497758,
+      "sellerDiscounts": 26255252,
+      "sellingRevenue": 14242506,
+      "shippingCollected": 0,
+      "cancellations": 726206,
+      "refunds": 2664421,
+      "unmatched": 0,
+      "netRevenue": 10851879,
+      "fees": {
+        "commission": 1529628,
+        "fixedFee": 496500,
+        "collectionFee": 298610,
+        "shippingFee": 2327000,
+        "reverseShippingFee": 434000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 4634176,
+      "feesEstimated": 451562,
+      "gstOnFees": 915440,
+      "reimbursements": 174510,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 4911228,
+      "netSettlement": 5940651,
+      "cogs": 6939600,
+      "packaging": 300000,
+      "adSpend": 786770,
+      "contribution": -2085719,
+      "tcs": 49817,
+      "tds": 9969,
+      "payout": 5624390,
+      "overcharges": [
+        {
+          "ref": "ITM00502535",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00496656#APP-KRT-BLU-M",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00497141#APP-TSH-BLK-M",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00498098#BTY-SUN-SPF50",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00499427#ELC-PWR-10K",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        },
+        {
+          "ref": "ORD00501353#HOM-BED-DBL-CTN",
+          "provider": "snapdeal",
+          "component": "shippingFee",
+          "amount": 2000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 26,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 8113609,
+            "sellingRevenue": 2882999,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 6166509,
+            "sellingRevenue": 2133210,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 8000829,
+            "sellingRevenue": 2879863,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 7460781,
+            "sellingRevenue": 2586435,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 5449999,
+            "sellingRevenue": 1892225,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 5306031,
+            "sellingRevenue": 1867774,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 1072007,
+            "tcs": 9572,
+            "tds": 1917
+          },
+          "2026-08": {
+            "netPayout": 1364058,
+            "tcs": 12227,
+            "tds": 2447
+          },
+          "2026-05": {
+            "netPayout": 869575,
+            "tcs": 6995,
+            "tds": 1399
+          },
+          "2026-09": {
+            "netPayout": 1049693,
+            "tcs": 9229,
+            "tds": 1847
+          },
+          "2026-06": {
+            "netPayout": 930979,
+            "tcs": 8099,
+            "tds": 1619
+          },
+          "2026-04": {
+            "netPayout": 128888,
+            "tcs": 1571,
+            "tds": 315
+          },
+          "2026-10": {
+            "netPayout": 209190,
+            "tcs": 2124,
+            "tds": 425
+          }
+        }
+      }
+    },
+    {
+      "platform": "swiggy_instamart",
+      "orderLines": 200,
+      "units": 3720,
+      "grossSales": 457882318,
+      "sellerDiscounts": 269897722,
+      "sellingRevenue": 187984596,
+      "shippingCollected": 0,
+      "cancellations": 0,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 187984596,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 6087096
+      },
+      "feesSettled": 4826268,
+      "feesEstimated": 1260828,
+      "gstOnFees": 1095681,
+      "reimbursements": 0,
+      "penalties": 2999300,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 9086396,
+      "netSettlement": 178898200,
+      "cogs": 92461800,
+      "packaging": 4012800,
+      "adSpend": 0,
+      "contribution": 82423600,
+      "tcs": 0,
+      "tds": 149083,
+      "payout": 152032218,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 44,
+      "monthly": {
+        "order": {
+          "2026-06": {
+            "grossSales": 85203980,
+            "sellingRevenue": 34605760,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 144392800,
+            "sellingRevenue": 59140551,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 96876816,
+            "sellingRevenue": 40042991,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 17689381,
+            "sellingRevenue": 7263520,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 66319346,
+            "sellingRevenue": 27301040,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 47399995,
+            "sellingRevenue": 19630734,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-07": {
+            "netPayout": 28127321,
+            "tcs": 0,
+            "tds": 27786
+          },
+          "2026-09": {
+            "netPayout": 50377446,
+            "tcs": 0,
+            "tds": 49523
+          },
+          "2026-08": {
+            "netPayout": 31688933,
+            "tcs": 0,
+            "tds": 31133
+          },
+          "2026-06": {
+            "netPayout": 7639964,
+            "tcs": 0,
+            "tds": 7264
+          },
+          "2026-10": {
+            "netPayout": 14096342,
+            "tcs": 0,
+            "tds": 13746
+          },
+          "2026-05": {
+            "netPayout": 20102212,
+            "tcs": 0,
+            "tds": 19631
+          }
+        }
+      }
+    },
+    {
+      "platform": "tatacliq",
+      "orderLines": 300,
+      "units": 348,
+      "grossSales": 58599635,
+      "sellerDiscounts": 30642395,
+      "sellingRevenue": 27957240,
+      "shippingCollected": 0,
+      "cancellations": 1076456,
+      "refunds": 3896446,
+      "unmatched": 0,
+      "netRevenue": 22984338,
+      "fees": {
+        "commission": 3725930,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 2634000,
+        "reverseShippingFee": 383500,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 6526000,
+      "feesEstimated": 217430,
+      "gstOnFees": 1213789,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 6743430,
+      "netSettlement": 16240908,
+      "cogs": 8037300,
+      "packaging": 281200,
+      "adSpend": 1549795,
+      "contribution": 6372613,
+      "tcs": 111543,
+      "tds": 22300,
+      "payout": 16908305,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 13,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 15445731,
+            "sellingRevenue": 7435917,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 9316933,
+            "sellingRevenue": 4414258,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 8123424,
+            "sellingRevenue": 3851216,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 9437653,
+            "sellingRevenue": 4426910,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 10429469,
+            "sellingRevenue": 5033736,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 5846425,
+            "sellingRevenue": 2795203,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 4704704,
+            "tcs": 30442,
+            "tds": 6087
+          },
+          "2026-07": {
+            "netPayout": 1795679,
+            "tcs": 12719,
+            "tds": 2543
+          },
+          "2026-08": {
+            "netPayout": 2843082,
+            "tcs": 18678,
+            "tds": 3736
+          },
+          "2026-10": {
+            "netPayout": 1159018,
+            "tcs": 6821,
+            "tds": 1364
+          },
+          "2026-05": {
+            "netPayout": 2669080,
+            "tcs": 17601,
+            "tds": 3516
+          },
+          "2026-06": {
+            "netPayout": 3280861,
+            "tcs": 22593,
+            "tds": 4517
+          },
+          "2026-04": {
+            "netPayout": 455881,
+            "tcs": 2689,
+            "tds": 537
+          }
+        }
+      }
+    },
+    {
+      "platform": "udaan",
+      "orderLines": 150,
+      "units": 166,
+      "grossSales": 18754886,
+      "sellerDiscounts": 11310275,
+      "sellingRevenue": 7444611,
+      "shippingCollected": 0,
+      "cancellations": 209721,
+      "refunds": 1096523,
+      "unmatched": 0,
+      "netRevenue": 6138367,
+      "fees": {
+        "commission": 413670,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 1595000,
+        "reverseShippingFee": 207000,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 2067136,
+      "feesEstimated": 148534,
+      "gstOnFees": 398821,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2215670,
+      "netSettlement": 3922697,
+      "cogs": 3196100,
+      "packaging": 142600,
+      "adSpend": 414330,
+      "contribution": 169667,
+      "tcs": 28607,
+      "tds": 5722,
+      "payout": 3893949,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 11,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 3323411,
+            "sellingRevenue": 1367862,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 4201399,
+            "sellingRevenue": 1662402,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 2838702,
+            "sellingRevenue": 1112169,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 3700726,
+            "sellingRevenue": 1443653,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 1433343,
+            "sellingRevenue": 608554,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3257305,
+            "sellingRevenue": 1249971,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 919064,
+            "tcs": 7299,
+            "tds": 1459
+          },
+          "2026-09": {
+            "netPayout": 681683,
+            "tcs": 4915,
+            "tds": 983
+          },
+          "2026-05": {
+            "netPayout": 366268,
+            "tcs": 3180,
+            "tds": 637
+          },
+          "2026-10": {
+            "netPayout": 431106,
+            "tcs": 2755,
+            "tds": 552
+          },
+          "2026-06": {
+            "netPayout": 632723,
+            "tcs": 4584,
+            "tds": 917
+          },
+          "2026-07": {
+            "netPayout": 798614,
+            "tcs": 5395,
+            "tds": 1078
+          },
+          "2026-04": {
+            "netPayout": 64491,
+            "tcs": 479,
+            "tds": 96
+          }
+        }
+      }
+    },
+    {
+      "platform": "urban_ladder",
+      "orderLines": 100,
+      "units": 104,
+      "grossSales": 16096244,
+      "sellerDiscounts": 8131708,
+      "sellingRevenue": 7964536,
+      "shippingCollected": 0,
+      "cancellations": 39048,
+      "refunds": 1306765,
+      "unmatched": 0,
+      "netRevenue": 6618723,
+      "fees": {
+        "commission": 1315656,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 1209096,
+      "feesEstimated": 106560,
+      "gstOnFees": 236812,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 1315656,
+      "netSettlement": 5303067,
+      "cogs": 1582800,
+      "packaging": 86400,
+      "adSpend": 437935,
+      "contribution": 3195932,
+      "tcs": 30405,
+      "tds": 6082,
+      "payout": 5236785,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 8,
+      "monthly": {
+        "order": {
+          "2026-04": {
+            "grossSales": 1688344,
+            "sellingRevenue": 809040,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 4102913,
+            "sellingRevenue": 2035982,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 1111987,
+            "sellingRevenue": 572620,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 2549418,
+            "sellingRevenue": 1305423,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 3095068,
+            "sellingRevenue": 1530677,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 3548514,
+            "sellingRevenue": 1710794,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-05": {
+            "netPayout": 498606,
+            "tcs": 3038,
+            "tds": 608
+          },
+          "2026-10": {
+            "netPayout": 652595,
+            "tcs": 3816,
+            "tds": 763
+          },
+          "2026-06": {
+            "netPayout": 625402,
+            "tcs": 3612,
+            "tds": 723
+          },
+          "2026-07": {
+            "netPayout": 837004,
+            "tcs": 4841,
+            "tds": 967
+          },
+          "2026-09": {
+            "netPayout": 787847,
+            "tcs": 4455,
+            "tds": 890
+          },
+          "2026-08": {
+            "netPayout": 1726023,
+            "tcs": 9977,
+            "tds": 1998
+          },
+          "2026-04": {
+            "netPayout": 109308,
+            "tcs": 666,
+            "tds": 133
+          }
+        }
+      }
+    },
+    {
+      "platform": "walmart",
+      "orderLines": 120,
+      "units": 140,
+      "grossSales": 29254536,
+      "sellerDiscounts": 14580604,
+      "sellingRevenue": 14673932,
+      "shippingCollected": 0,
+      "cancellations": 616657,
+      "refunds": 1471470,
+      "unmatched": 0,
+      "netRevenue": 12585805,
+      "fees": {
+        "commission": 1939557,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 10420052,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 0
+      },
+      "feesSettled": 11640269,
+      "feesEstimated": 719340,
+      "gstOnFees": 2224792,
+      "reimbursements": 162478,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": -11705,
+      "platformCosts": 12208836,
+      "netSettlement": 376969,
+      "cogs": 2614300,
+      "packaging": 125400,
+      "adSpend": 0,
+      "contribution": -2362731,
+      "tcs": 0,
+      "tds": 0,
+      "payout": -1860637,
+      "overcharges": [],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-07": {
+            "grossSales": 5201236,
+            "sellingRevenue": 2602493,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 3872687,
+            "sellingRevenue": 1963377,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2855965,
+            "sellingRevenue": 1443564,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 5265965,
+            "sellingRevenue": 2695036,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 6304647,
+            "sellingRevenue": 3054539,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 5754036,
+            "sellingRevenue": 2914923,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": -190728,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": -323750,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 65418,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": -2726,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": -471731,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": -130145,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": -806975,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "wix",
+      "orderLines": 250,
+      "units": 273,
+      "grossSales": 28040468,
+      "sellerDiscounts": 14023482,
+      "sellingRevenue": 14016986,
+      "shippingCollected": 0,
+      "cancellations": 316093,
+      "refunds": 3546023,
+      "unmatched": 0,
+      "netRevenue": 10154870,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 438810,
+        "shippingFee": 1556200,
+        "reverseShippingFee": 143400,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 1050000
+      },
+      "feesSettled": 3143710,
+      "feesEstimated": 44700,
+      "gstOnFees": 573925,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 3188410,
+      "netSettlement": 6966460,
+      "cogs": 4197800,
+      "packaging": 233200,
+      "adSpend": 1551080,
+      "contribution": 984380,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 8268511,
+      "overcharges": [
+        {
+          "ref": "#1189",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1217",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1227",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1263",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1303",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 6000
+        },
+        {
+          "ref": "#1304",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1326",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        },
+        {
+          "ref": "#1364",
+          "provider": "shiprocket",
+          "component": "shippingFee",
+          "amount": 3000
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 6,
+      "monthly": {
+        "order": {
+          "2026-09": {
+            "grossSales": 7114502,
+            "sellingRevenue": 3535704,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 4606080,
+            "sellingRevenue": 2270103,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 3557706,
+            "sellingRevenue": 1773450,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 5197465,
+            "sellingRevenue": 2637031,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 5154631,
+            "sellingRevenue": 2630704,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2410084,
+            "sellingRevenue": 1169994,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 1933586,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 1497689,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 878932,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 1338824,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 1901404,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 173791,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 544285,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "woocommerce",
+      "orderLines": 300,
+      "units": 324,
+      "grossSales": 18527578,
+      "sellerDiscounts": 0,
+      "sellingRevenue": 18527578,
+      "shippingCollected": 0,
+      "cancellations": 1098903,
+      "refunds": 3549735,
+      "unmatched": 0,
+      "netRevenue": 13878940,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 528737,
+        "shippingFee": 1692000,
+        "reverseShippingFee": 145400,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 630000
+      },
+      "feesSettled": 2905937,
+      "feesEstimated": 90200,
+      "gstOnFees": 539302,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2996137,
+      "netSettlement": 10882803,
+      "cogs": 4987300,
+      "packaging": 276400,
+      "adSpend": 2056380,
+      "contribution": 3562723,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 12049897,
+      "overcharges": [
+        {
+          "ref": "#1131",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 5600
+        },
+        {
+          "ref": "#1181",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1233",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 11,
+      "monthly": {
+        "order": {
+          "2026-09": {
+            "grossSales": 3807310,
+            "sellingRevenue": 3807310,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 2730140,
+            "sellingRevenue": 2730140,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 2624361,
+            "sellingRevenue": 2624361,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 3731408,
+            "sellingRevenue": 3731408,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 3270551,
+            "sellingRevenue": 3270551,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2363808,
+            "sellingRevenue": 2363808,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-09": {
+            "netPayout": 2075951,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": 406673,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 2951561,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 1906870,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-08": {
+            "netPayout": 1543172,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 2002483,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 1163187,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    },
+    {
+      "platform": "zepto",
+      "orderLines": 200,
+      "units": 3726,
+      "grossSales": 327686571,
+      "sellerDiscounts": 182364513,
+      "sellingRevenue": 145322058,
+      "shippingCollected": 0,
+      "cancellations": 0,
+      "refunds": 0,
+      "unmatched": 0,
+      "netRevenue": 145322058,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 0,
+        "shippingFee": 0,
+        "reverseShippingFee": 0,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 4802166
+      },
+      "feesSettled": 3950604,
+      "feesEstimated": 851562,
+      "gstOnFees": 864392,
+      "reimbursements": 0,
+      "penalties": 2769000,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 7571166,
+      "netSettlement": 137750892,
+      "cogs": 70923600,
+      "packaging": 3850800,
+      "adSpend": 0,
+      "contribution": 62976492,
+      "tcs": 0,
+      "tds": 119250,
+      "payout": 124136836,
+      "overcharges": [],
+      "missingCogsSkus": [],
+      "orphanLines": 0,
+      "estimatedLines": 39,
+      "monthly": {
+        "order": {
+          "2026-04": {
+            "grossSales": 57051457,
+            "sellingRevenue": 24972281,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 58557586,
+            "sellingRevenue": 26070706,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 51590063,
+            "sellingRevenue": 22807108,
+            "shippingCollected": 0
+          },
+          "2026-08": {
+            "grossSales": 65698558,
+            "sellingRevenue": 29331582,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 44709905,
+            "sellingRevenue": 20047917,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 50079002,
+            "sellingRevenue": 22092464,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-05": {
+            "netPayout": 17065171,
+            "tcs": 0,
+            "tds": 16564
+          },
+          "2026-08": {
+            "netPayout": 25292412,
+            "tcs": 0,
+            "tds": 24446
+          },
+          "2026-06": {
+            "netPayout": 24276752,
+            "tcs": 0,
+            "tds": 23134
+          },
+          "2026-09": {
+            "netPayout": 29210451,
+            "tcs": 0,
+            "tds": 27934
+          },
+          "2026-07": {
+            "netPayout": 26791728,
+            "tcs": 0,
+            "tds": 25775
+          },
+          "2026-10": {
+            "netPayout": 1500322,
+            "tcs": 0,
+            "tds": 1397
+          }
+        }
+      }
+    },
+    {
+      "platform": "zoho_commerce",
+      "orderLines": 250,
+      "units": 263,
+      "grossSales": 28904800,
+      "sellerDiscounts": 14513249,
+      "sellingRevenue": 14391551,
+      "shippingCollected": 0,
+      "cancellations": 550562,
+      "refunds": 2059472,
+      "unmatched": 0,
+      "netRevenue": 11781517,
+      "fees": {
+        "commission": 0,
+        "fixedFee": 0,
+        "collectionFee": 465417,
+        "shippingFee": 1405000,
+        "reverseShippingFee": 81600,
+        "fulfilmentFee": 0,
+        "storageFee": 0,
+        "otherFees": 840000
+      },
+      "feesSettled": 2730217,
+      "feesEstimated": 61800,
+      "gstOnFees": 502558,
+      "reimbursements": 0,
+      "penalties": 0,
+      "duties": 0,
+      "fxGain": 0,
+      "platformCosts": 2792017,
+      "netSettlement": 8989500,
+      "cogs": 4927500,
+      "packaging": 232400,
+      "adSpend": 1590310,
+      "contribution": 2239290,
+      "tcs": 0,
+      "tds": 0,
+      "payout": 10409049,
+      "overcharges": [
+        {
+          "ref": "#1368",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1377",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1473",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1486",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1502",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1503",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        },
+        {
+          "ref": "#1551",
+          "provider": "delhivery",
+          "component": "shippingFee",
+          "amount": 2800
+        }
+      ],
+      "missingCogsSkus": [
+        "HOM-CNDL-SET3",
+        "HOM-PHT-FRM",
+        "HOM-PLANT-POT"
+      ],
+      "orphanLines": 0,
+      "estimatedLines": 7,
+      "monthly": {
+        "order": {
+          "2026-08": {
+            "grossSales": 6121966,
+            "sellingRevenue": 2988747,
+            "shippingCollected": 0
+          },
+          "2026-07": {
+            "grossSales": 4305136,
+            "sellingRevenue": 2199565,
+            "shippingCollected": 0
+          },
+          "2026-04": {
+            "grossSales": 2974824,
+            "sellingRevenue": 1470420,
+            "shippingCollected": 0
+          },
+          "2026-06": {
+            "grossSales": 6023333,
+            "sellingRevenue": 2984919,
+            "shippingCollected": 0
+          },
+          "2026-09": {
+            "grossSales": 4237905,
+            "sellingRevenue": 2149354,
+            "shippingCollected": 0
+          },
+          "2026-05": {
+            "grossSales": 5241636,
+            "sellingRevenue": 2598546,
+            "shippingCollected": 0
+          }
+        },
+        "settlement": {
+          "2026-08": {
+            "netPayout": 1940906,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-09": {
+            "netPayout": 2176601,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-07": {
+            "netPayout": 1870293,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-04": {
+            "netPayout": 764074,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-05": {
+            "netPayout": 1516036,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-06": {
+            "netPayout": 2261737,
+            "tcs": 0,
+            "tds": 0
+          },
+          "2026-10": {
+            "netPayout": -120598,
+            "tcs": 0,
+            "tds": 0
+          }
+        }
+      }
+    }
+  ]
+}

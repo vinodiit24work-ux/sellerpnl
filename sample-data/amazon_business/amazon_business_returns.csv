@@ -1,0 +1,17 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00708408,ORD00708408#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too large,09-Sep-2026,Good
+ORD00708546,ORD00708546#ELC-PWR-10K,ELC-PWR-10K,1,RTO,Customer refused / undeliverable,06-May-2026,Good
+ORD00708722,ITM00708746,APP-TSH-BLK-M,3,RTO,Customer refused / undeliverable,07-Jul-2026,Good
+ORD00708946,ORD00708946#BTY-KJL-BLK,BTY-KJL-BLK,2,RTO,Customer refused / undeliverable,25-Jun-2026,Good
+ORD00709033,ORD00709033#KIT-CHP-BRD,KIT-CHP-BRD,2,Customer Return,Damaged in transit,20-May-2026,Good
+ORD00709120,ORD00709120#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,18-Jul-2026,Good
+ORD00709150,ORD00709150#HOM-CNDL-SET3,HOM-CNDL-SET3,1,Customer Return,Damaged in transit,21-May-2026,Good
+ORD00709221,ORD00709221#ELC-HLD-CAR,ELC-HLD-CAR,1,RTO,Customer refused / undeliverable,04-Oct-2026,Good
+ORD00709351,ORD00709351#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too small,03-May-2026,Good
+ORD00709687,ORD00709687#HOM-BED-DBL-CTN,HOM-BED-DBL-CTN,1,RTO,Customer refused / undeliverable,31-May-2026,Good
+ORD00709773,ORD00709773#KIT-CNT-SET3,KIT-CNT-SET3,1,RTO,Customer refused / undeliverable,31-Jul-2026,Good
+ORD00710418,ORD00710418#APP-TSH-BLK-M,APP-TSH-BLK-M,1,RTO,Customer refused / undeliverable,26-May-2026,Good
+ORD00710516,ORD00710516#BTY-FCW-NEEM,BTY-FCW-NEEM,2,RTO,Customer refused / undeliverable,28-Aug-2026,Good
+ORD00711097,ITM00711144,BTY-PERF-50,1,Customer Return,Product expired / near expiry,19-Jul-2026,Good
+ORD00711209,ORD00711209#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Quality not as expected,18-Sep-2026,Good
+ORD00711393,ORD00711393#APP-KRT-BLU-M,APP-KRT-BLU-M,1,RTO,Customer refused / undeliverable,22-Sep-2026,Good

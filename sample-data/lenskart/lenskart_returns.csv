@@ -1,0 +1,14 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00373585,ORD00373585#ELC-EAR-TWS,ELC-EAR-TWS,3,RTO,Customer refused / undeliverable,23-09-2026,Good
+ORD00373657,ORD00373657#ELC-HLD-CAR,ELC-HLD-CAR,1,Customer Return,Missing accessories,06-06-2026,Good
+ORD00373681,ORD00373681#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,RTO,Customer refused / undeliverable,30-09-2026,Good
+ORD00373695,ORD00373695#ELC-SCR-GRD,ELC-SCR-GRD,1,Customer Return,Not working / defective,10-05-2026,Good
+ORD00373929,ORD00373929#ELC-HLD-CAR,ELC-HLD-CAR,1,RTO,Customer refused / undeliverable,18-08-2026,Good
+ORD00374221,ORD00374221#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Not compatible,13-09-2026,Good
+ORD00374367,ORD00374367#ELC-HLD-CAR,ELC-HLD-CAR,1,RTO,Customer refused / undeliverable,20-05-2026,Good
+ORD00374375,ORD00374375#ELC-CHG-20W,ELC-CHG-20W,1,RTO,Customer refused / undeliverable,22-07-2026,Good
+ORD00374493,ORD00374493#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Not compatible,02-10-2026,Good
+ORD00374658,ORD00374658#ELC-HLD-CAR,ELC-HLD-CAR,1,Customer Return,Damaged product,19-04-2026,Damaged
+ORD00375299,ORD00375299#ELC-EAR-TWS,ELC-EAR-TWS,1,Customer Return,Missing accessories,11-09-2026,Damaged
+ORD00375328,ORD00375328#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,Customer Return,Missing accessories,19-07-2026,Good
+ORD00375349,ORD00375349#ELC-EAR-TWS,ELC-EAR-TWS,1,Customer Return,Missing accessories,24-04-2026,Good

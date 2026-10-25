@@ -1,0 +1,101 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00514534,ORD00514534#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Size too small,23-Aug-2026,Lost
+ORD00514586,ORD00514586#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too large,10-Jul-2026,Damaged
+ORD00514649,ORD00514649#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too large,30-Jul-2026,Wrong item
+ORD00514707,ORD00514707#APP-KRT-MAR-L,APP-KRT-MAR-L,2,Customer Return,Size too large,21-Aug-2026,Good
+ORD00514708,ORD00514708#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too small,18-Jul-2026,Good
+ORD00514770,ORD00514770#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Damaged product,09-Jul-2026,Good
+ORD00514843,ORD00514843#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Damaged product,17-Jul-2026,Good
+ORD00514857,ORD00514857#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Quality not as expected,26-Sep-2026,Missing
+ORD00514897,ORD00514897#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Colour different from image,22-Jul-2026,Wrong item
+ORD00515013,ORD00515013#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too large,23-Jun-2026,Good
+ORD00515040,ORD00515040#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Colour different from image,23-Jul-2026,Good
+ORD00515068,ORD00515068#APP-KRT-BLU-M,APP-KRT-BLU-M,2,Customer Return,Size too small,08-Jun-2026,Missing
+ORD00515098,ORD00515098#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Colour different from image,29-May-2026,Good
+ORD00515189,ORD00515189#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Colour different from image,19-Sep-2026,Good
+ORD00515314,ORD00515314#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Damaged product,01-Jun-2026,Good
+ORD00515338,ORD00515338#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Damaged product,03-Sep-2026,Good
+ORD00515374,ORD00515374#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Colour different from image,20-Apr-2026,Good
+ORD00515409,ORD00515409#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Colour different from image,29-Sep-2026,Good
+ORD00515603,ORD00515603#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Quality not as expected,22-May-2026,Damaged
+ORD00515706,ORD00515706#APP-SHR-DEN-32,APP-SHR-DEN-32,1,RTO,Customer refused / undeliverable,08-Jun-2026,Damaged
+ORD00515724,ORD00515724#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Colour different from image,12-Aug-2026,Damaged
+ORD00515858,ORD00515858#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Size too small,18-Jul-2026,Damaged
+ORD00515864,ORD00515864#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Quality not as expected,10-Aug-2026,Wrong item
+ORD00515894,ORD00515894#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,23-Aug-2026,Good
+ORD00515928,ITM00515945,APP-KRT-BLU-M,1,RTO,Customer refused / undeliverable,14-Jul-2026,Good
+ORD00515928,ITM00515976,APP-KRT-MAR-L,1,Customer Return,Colour different from image,12-Jul-2026,Good
+ORD00516155,ORD00516155#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Size too large,25-Jul-2026,Good
+ORD00516263,ORD00516263#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Damaged product,27-Aug-2026,Good
+ORD00516319,ITM00516352,APP-DRS-FLR-S,1,Customer Return,Colour different from image,20-Jul-2026,Good
+ORD00516465,ORD00516465#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Quality not as expected,06-Sep-2026,Good
+ORD00516534,ORD00516534#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Colour different from image,29-May-2026,Good
+ORD00516537,ORD00516537#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Colour different from image,23-Jun-2026,Good
+ORD00516570,ORD00516570#APP-KRT-MAR-L,APP-KRT-MAR-L,1,RTO,Customer refused / undeliverable,07-May-2026,Good
+ORD00516596,ORD00516596#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Colour different from image,08-Jul-2026,Good
+ORD00516704,ORD00516704#APP-KRT-MAR-L,APP-KRT-MAR-L,2,RTO,Customer refused / undeliverable,16-Jun-2026,Good
+ORD00516939,ORD00516939#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Size too large,27-Aug-2026,Good
+ORD00517044,ORD00517044#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too large,10-Sep-2026,Good
+ORD00517052,ORD00517052#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Damaged product,14-Jul-2026,Good
+ORD00517070,ORD00517070#APP-JGR-GRY-M,APP-JGR-GRY-M,2,RTO,Customer refused / undeliverable,21-Jun-2026,Good
+ORD00517102,ORD00517102#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,03-May-2026,Good
+ORD00517110,ORD00517110#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Size too small,26-Jun-2026,Damaged
+ORD00517119,ORD00517119#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Colour different from image,02-Jul-2026,Good
+ORD00517127,ORD00517127#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Colour different from image,06-Aug-2026,Good
+ORD00517145,ORD00517145#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Size too small,12-Sep-2026,Good
+ORD00517237,ORD00517237#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too small,05-Jun-2026,Good
+ORD00517269,ORD00517269#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Damaged product,20-Jun-2026,Wrong item
+ORD00517308,ORD00517308#APP-TSH-BLK-M,APP-TSH-BLK-M,2,Customer Return,Size too small,16-Jul-2026,Good
+ORD00517343,ORD00517343#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Colour different from image,07-Aug-2026,Good
+ORD00517371,ORD00517371#APP-SOK-PK5,APP-SOK-PK5,1,RTO,Customer refused / undeliverable,21-Aug-2026,Damaged
+ORD00517418,ORD00517418#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Size too large,07-Aug-2026,Damaged
+ORD00517473,ORD00517473#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,19-Sep-2026,Damaged
+ORD00517508,ORD00517508#APP-TSH-WHT-L,APP-TSH-WHT-L,1,RTO,Customer refused / undeliverable,04-Aug-2026,Good
+ORD00517566,ORD00517566#APP-JGR-GRY-M,APP-JGR-GRY-M,1,RTO,Customer refused / undeliverable,12-May-2026,Good
+ORD00517627,ORD00517627#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,21-Jun-2026,Good
+ORD00517661,ORD00517661#APP-KRT-BLU-M,APP-KRT-BLU-M,1,RTO,Customer refused / undeliverable,18-May-2026,Good
+ORD00517695,ORD00517695#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Colour different from image,14-Sep-2026,Good
+ORD00517725,ORD00517725#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Damaged product,14-Sep-2026,Good
+ORD00517986,ORD00517986#APP-TSH-WHT-L,APP-TSH-WHT-L,2,Customer Return,Quality not as expected,12-Sep-2026,Good
+ORD00517999,ORD00517999#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Damaged product,13-Jun-2026,Good
+ORD00518030,ORD00518030#APP-KRT-MAR-L,APP-KRT-MAR-L,1,RTO,Customer refused / undeliverable,29-Apr-2026,Good
+ORD00518170,ORD00518170#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Size too large,24-Sep-2026,Good
+ORD00518242,ORD00518242#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Damaged product,26-Aug-2026,Good
+ORD00518254,ORD00518254#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Quality not as expected,26-Apr-2026,Good
+ORD00518289,ORD00518289#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Size too large,10-Jun-2026,Damaged
+ORD00518297,ORD00518297#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Colour different from image,25-May-2026,Good
+ORD00518336,ORD00518336#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,12-Sep-2026,Damaged
+ORD00518364,ORD00518364#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Damaged product,08-Jul-2026,Good
+ORD00518403,ORD00518403#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,16-Sep-2026,Lost
+ORD00518420,ORD00518420#APP-TSH-BLK-M,APP-TSH-BLK-M,3,RTO,Customer refused / undeliverable,09-Jul-2026,Good
+ORD00518502,ORD00518502#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Size too small,11-Aug-2026,Good
+ORD00518609,ORD00518609#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Colour different from image,06-Aug-2026,Damaged
+ORD00518653,ORD00518653#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too large,06-Aug-2026,Good
+ORD00518688,ORD00518688#APP-KRT-MAR-L,APP-KRT-MAR-L,1,RTO,Customer refused / undeliverable,31-Jul-2026,Good
+ORD00518734,ORD00518734#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Damaged product,01-Oct-2026,Good
+ORD00518800,ORD00518800#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too large,23-Sep-2026,Good
+ORD00518819,ITM00518834,APP-TSH-BLK-M,3,RTO,Customer refused / undeliverable,26-Aug-2026,Good
+ORD00518819,ITM00518861,APP-KRT-MAR-L,1,Customer Return,Size too small,23-Aug-2026,Good
+ORD00519083,ORD00519083#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too large,04-Sep-2026,Good
+ORD00519109,ORD00519109#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Colour different from image,11-Jun-2026,Good
+ORD00519251,ORD00519251#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Quality not as expected,10-Jun-2026,Good
+ORD00519278,ORD00519278#APP-TSH-BLK-M,APP-TSH-BLK-M,2,RTO,Customer refused / undeliverable,21-Aug-2026,Damaged
+ORD00519313,ORD00519313#APP-KRT-MAR-L,APP-KRT-MAR-L,1,RTO,Customer refused / undeliverable,11-Jul-2026,Good
+ORD00519346,ITM00519378,APP-SOK-PK5,1,Customer Return,Size too small,08-Sep-2026,Damaged
+ORD00519491,ORD00519491#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Damaged product,08-May-2026,Missing
+ORD00519512,ORD00519512#APP-SHR-DEN-32,APP-SHR-DEN-32,2,Customer Return,Quality not as expected,30-Jun-2026,Good
+ORD00519543,ORD00519543#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too large,18-Jul-2026,Good
+ORD00519567,ORD00519567#APP-KRT-MAR-L,APP-KRT-MAR-L,2,Customer Return,Damaged product,21-Aug-2026,Damaged
+ORD00519586,ORD00519586#APP-SOK-PK5,APP-SOK-PK5,2,Customer Return,Size too small,17-Aug-2026,Good
+ORD00519607,ORD00519607#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Damaged product,20-Sep-2026,Wrong item
+ORD00519682,ITM00519691,APP-TSH-BLK-M,1,Customer Return,Size too large,19-Sep-2026,Good
+ORD00519682,ITM00519702,APP-SHR-DEN-32,1,Customer Return,Size too large,23-Sep-2026,Good
+ORD00519951,ORD00519951#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Size too small,15-Sep-2026,Good
+ORD00520025,ORD00520025#APP-KRT-BLU-M,APP-KRT-BLU-M,2,Customer Return,Size too large,14-Jul-2026,Good
+ORD00520077,ORD00520077#APP-SOK-PK5,APP-SOK-PK5,1,RTO,Customer refused / undeliverable,24-Jun-2026,Good
+ORD00520128,ORD00520128#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Damaged product,09-Sep-2026,Good
+ORD00520163,ORD00520163#APP-KRT-MAR-L,APP-KRT-MAR-L,1,RTO,Customer refused / undeliverable,19-Sep-2026,Good
+ORD00520240,ITM00520247,APP-SOK-PK5,1,Customer Return,Size too small,06-Jun-2026,Good
+ORD00520328,ORD00520328#APP-KRT-MAR-L,APP-KRT-MAR-L,3,Customer Return,Quality not as expected,09-Aug-2026,Lost
+ORD00520434,ORD00520434#APP-DRS-FLR-S,APP-DRS-FLR-S,2,Customer Return,Colour different from image,01-Sep-2026,Good
+ORD00520455,ORD00520455#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,19-Jul-2026,Good

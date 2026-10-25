@@ -1,0 +1,14 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00367341,ITM00367387,HOM-RUG-SM,1,Customer Return,Damaged in transit,10-Jul-2026,Good
+ORD00367405,ORD00367405#HOM-CNDL-SET3,HOM-CNDL-SET3,1,Customer Return,Quality not as expected,19-Sep-2026,Good
+ORD00367490,ORD00367490#HOM-CNDL-SET3,HOM-CNDL-SET3,1,RTO,Customer refused / undeliverable,05-Jun-2026,Damaged
+ORD00367857,ORD00367857#HOM-PHT-FRM,HOM-PHT-FRM,1,RTO,Customer refused / undeliverable,06-Sep-2026,Good
+ORD00367966,ORD00367966#HOM-CUS-VLV-2,HOM-CUS-VLV-2,1,RTO,Customer refused / undeliverable,31-May-2026,Good
+ORD00368151,ITM00368191,HOM-CNDL-SET3,1,Customer Return,Damaged in transit,06-May-2026,Wrong item
+ORD00368259,ORD00368259#HOM-BED-DBL-CTN,HOM-BED-DBL-CTN,1,Customer Return,Not as described,01-Oct-2026,Good
+ORD00368383,ORD00368383#HOM-RUG-SM,HOM-RUG-SM,1,RTO,Customer refused / undeliverable,06-Aug-2026,Good
+ORD00368408,ITM00368426,HOM-BED-DBL-CTN,1,Customer Return,Damaged in transit,22-Sep-2026,Good
+ORD00368462,ORD00368462#HOM-CUS-VLV-2,HOM-CUS-VLV-2,1,Customer Return,Damaged in transit,07-Aug-2026,Good
+ORD00368734,ORD00368734#HOM-DOOR-MAT,HOM-DOOR-MAT,1,Customer Return,Damaged in transit,05-Oct-2026,Wrong item
+ORD00368765,ORD00368765#HOM-CNDL-SET3,HOM-CNDL-SET3,1,RTO,Customer refused / undeliverable,06-May-2026,Damaged
+ORD00368782,ORD00368782#HOM-PHT-FRM,HOM-PHT-FRM,1,Customer Return,Damaged in transit,07-May-2026,Good

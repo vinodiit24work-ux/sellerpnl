@@ -1,0 +1,15 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00497186,ORD00497186#BTY-FCW-NEEM,BTY-FCW-NEEM,1,Customer Return,Allergic reaction,2026-05-24,Good
+ORD00497371,ORD00497371#APP-KRT-MAR-L,APP-KRT-MAR-L,1,Customer Return,Size too large,2026-08-26,Wrong item
+ORD00497496,ITM00497517,KIT-KNF-SET,1,Customer Return,Quality not as expected,2026-09-03,Wrong item
+ORD00497668,ORD00497668#APP-TSH-WHT-L,APP-TSH-WHT-L,1,RTO,Customer refused / undeliverable,2026-09-04,Good
+ORD00497775,ORD00497775#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Missing accessories,2026-08-12,Good
+ORD00497929,ORD00497929#BTY-SRM-VITC,BTY-SRM-VITC,1,RTO,Customer refused / undeliverable,2026-08-05,Good
+ORD00498097,ORD00498097#BTY-KJL-BLK,BTY-KJL-BLK,1,RTO,Customer refused / undeliverable,2026-06-25,Good
+ORD00498122,ORD00498122#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,Customer Return,Not working / defective,2026-07-06,Good
+ORD00498436,ORD00498436#ELC-HLD-CAR,ELC-HLD-CAR,1,Customer Return,Not compatible,2026-09-04,Good
+ORD00498486,ORD00498486#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Missing accessories,2026-09-25,Good
+ORD00498573,ORD00498573#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,2026-07-10,Good
+ORD00498623,ORD00498623#BTY-PERF-50,BTY-PERF-50,1,Customer Return,Seal broken,2026-08-31,Good
+ORD00498775,ORD00498775#BTY-SUN-SPF50,BTY-SUN-SPF50,1,Customer Return,Product expired / near expiry,2026-06-22,Good
+ORD00499070,ORD00499070#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Quality not as expected,2026-08-08,Damaged

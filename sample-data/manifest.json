@@ -1,0 +1,979 @@
+{
+  "seed": 20261024,
+  "window": {
+    "from": "2026-04-01",
+    "to": "2026-09-30",
+    "cutoff": "2026-10-05"
+  },
+  "files": [
+    {
+      "path": "core/cogs_master.xlsx",
+      "platform": "core",
+      "expectedReport": "core.cogs",
+      "note": "3 SKUs deliberately missing; price changes on 5 SKUs; Excel serial dates",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/cogs_master.csv",
+      "platform": "core",
+      "expectedReport": "core.cogs",
+      "alternative": true,
+      "note": "same data as cogs_master.xlsx (CSV template)",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/purchase_ledger.csv",
+      "platform": "core",
+      "expectedReport": "core.purchases",
+      "note": "for weighted-average / FIFO costing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/bundles.csv",
+      "platform": "core",
+      "expectedReport": "core.bundles",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/overheads.csv",
+      "platform": "core",
+      "expectedReport": "core.overheads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/fx_rates.csv",
+      "platform": "core",
+      "expectedReport": "core.fx",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/sku_map.csv",
+      "platform": "core",
+      "expectedReport": "core.skumap",
+      "note": "Myntra lists under its own SKU codes",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/bank_statement.csv",
+      "platform": "core",
+      "expectedReport": "core.bank",
+      "note": "Amazon + Flipkart payouts; one credit without reference; one unexplained ₹4,250 credit",
+      "enabledByDefault": true
+    },
+    {
+      "path": "core/claims_tracker.csv",
+      "platform": "core",
+      "expectedReport": "core.claims",
+      "note": "status history (one row per change); first claim rejected, then won on appeal",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ajio/ajio_orders.xlsx",
+      "platform": "ajio",
+      "expectedReport": "ajio.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ajio/ajio_settlement.csv",
+      "platform": "ajio",
+      "expectedReport": "ajio.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ajio/ajio_returns.csv",
+      "platform": "ajio",
+      "expectedReport": "ajio.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ajio/ajio_ads.xlsx",
+      "platform": "ajio",
+      "expectedReport": "ajio.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon/amazon_all_orders.txt",
+      "platform": "amazon",
+      "expectedReport": "amazon.orders",
+      "note": "10 duplicate rows, unmapped column internal-notes, UTC timestamps",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon/amazon_settlement_v2.txt",
+      "platform": "amazon",
+      "expectedReport": "amazon.settlement_v2",
+      "note": "long format; one summary row per settlement; 5 orphan refunds",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon/amazon_deferred_transactions.csv",
+      "platform": "amazon",
+      "expectedReport": "amazon.deferred",
+      "note": "DD+7 reserve; lines released in the last 10 days appear here and in the settlement report (count once)",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon/amazon_returns.csv",
+      "platform": "amazon",
+      "expectedReport": "amazon.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon/amazon_sponsored_products_advertised_product.xlsx",
+      "platform": "amazon",
+      "expectedReport": "amazon.ads_sp",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_business/amazon_business_orders.xlsx",
+      "platform": "amazon_business",
+      "expectedReport": "amazon_business.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_business/amazon_business_settlement.csv",
+      "platform": "amazon_business",
+      "expectedReport": "amazon_business.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_business/amazon_business_returns.csv",
+      "platform": "amazon_business",
+      "expectedReport": "amazon_business.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_business/amazon_business_ads.xlsx",
+      "platform": "amazon_business",
+      "expectedReport": "amazon_business.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_global/amazon_global_orders.xlsx",
+      "platform": "amazon_global",
+      "expectedReport": "amazon_global.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "amazon_global/amazon_global_settlement.csv",
+      "platform": "amazon_global",
+      "expectedReport": "amazon_global.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bigbasket/bigbasket_orders.xlsx",
+      "platform": "bigbasket",
+      "expectedReport": "bigbasket.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bigbasket/bigbasket_payment_advice.csv",
+      "platform": "bigbasket",
+      "expectedReport": "bigbasket.payment_advice",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bigcommerce/bigcommerce_orders.xlsx",
+      "platform": "bigcommerce",
+      "expectedReport": "bigcommerce.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bigcommerce/bigcommerce_ads.csv",
+      "platform": "bigcommerce",
+      "expectedReport": "bigcommerce.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bigcommerce/bigcommerce_billing.csv",
+      "platform": "bigcommerce",
+      "expectedReport": "bigcommerce.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "blinkit/blinkit_orders.xlsx",
+      "platform": "blinkit",
+      "expectedReport": "blinkit.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "blinkit/blinkit_payment_advice.csv",
+      "platform": "blinkit",
+      "expectedReport": "blinkit.payment_advice",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bluedart/bluedart_billing_bigcommerce.xlsx",
+      "platform": "bluedart",
+      "expectedReport": "bluedart.billing",
+      "attachTo": "bigcommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "bluedart/bluedart_cod_remittance_bigcommerce.csv",
+      "platform": "bluedart",
+      "expectedReport": "bluedart.cod_remittance",
+      "attachTo": "bigcommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "cashfree/cashfree_settlement_woocommerce.xlsx",
+      "platform": "cashfree",
+      "expectedReport": "cashfree.settlement",
+      "attachTo": "woocommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "cashfree/cashfree_settlement_zoho_commerce.csv",
+      "platform": "cashfree",
+      "expectedReport": "cashfree.settlement",
+      "attachTo": "zoho_commerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "croma/croma_orders.xlsx",
+      "platform": "croma",
+      "expectedReport": "croma.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "croma/croma_settlement.csv",
+      "platform": "croma",
+      "expectedReport": "croma.settlement",
+      "enabledByDefault": false
+    },
+    {
+      "path": "croma/croma_returns.csv",
+      "platform": "croma",
+      "expectedReport": "croma.returns",
+      "enabledByDefault": false
+    },
+    {
+      "path": "croma/croma_ads.xlsx",
+      "platform": "croma",
+      "expectedReport": "croma.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "custom_offline/custom_offline_sales_register.xlsx",
+      "platform": "custom_offline",
+      "expectedReport": "custom_offline.sales_register",
+      "enabledByDefault": true
+    },
+    {
+      "path": "delhivery/delhivery_billing_woocommerce.xlsx",
+      "platform": "delhivery",
+      "expectedReport": "delhivery.billing",
+      "attachTo": "woocommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "delhivery/delhivery_billing_zoho_commerce.csv",
+      "platform": "delhivery",
+      "expectedReport": "delhivery.billing",
+      "attachTo": "zoho_commerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "delhivery/delhivery_cod_remittance_woocommerce.csv",
+      "platform": "delhivery",
+      "expectedReport": "delhivery.cod_remittance",
+      "attachTo": "woocommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "delhivery/delhivery_cod_remittance_zoho_commerce.xlsx",
+      "platform": "delhivery",
+      "expectedReport": "delhivery.cod_remittance",
+      "attachTo": "zoho_commerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "dukaan/dukaan_orders.xlsx",
+      "platform": "dukaan",
+      "expectedReport": "dukaan.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "dukaan/dukaan_ads.csv",
+      "platform": "dukaan",
+      "expectedReport": "dukaan.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "dukaan/dukaan_billing.csv",
+      "platform": "dukaan",
+      "expectedReport": "dukaan.billing",
+      "enabledByDefault": false
+    },
+    {
+      "path": "ebay/ebay_orders.xlsx",
+      "platform": "ebay",
+      "expectedReport": "ebay.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ebay/ebay_settlement.csv",
+      "platform": "ebay",
+      "expectedReport": "ebay.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ecom_express/ecom_express_billing_instamojo.xlsx",
+      "platform": "ecom_express",
+      "expectedReport": "ecom_express.billing",
+      "attachTo": "instamojo",
+      "enabledByDefault": true
+    },
+    {
+      "path": "ecom_express/ecom_express_cod_remittance_instamojo.csv",
+      "platform": "ecom_express",
+      "expectedReport": "ecom_express.cod_remittance",
+      "attachTo": "instamojo",
+      "enabledByDefault": true
+    },
+    {
+      "path": "etsy/etsy_orders.xlsx",
+      "platform": "etsy",
+      "expectedReport": "etsy.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "etsy/etsy_settlement.csv",
+      "platform": "etsy",
+      "expectedReport": "etsy.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "firstcry/firstcry_orders.xlsx",
+      "platform": "firstcry",
+      "expectedReport": "firstcry.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "firstcry/firstcry_settlement.csv",
+      "platform": "firstcry",
+      "expectedReport": "firstcry.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "firstcry/firstcry_returns.csv",
+      "platform": "firstcry",
+      "expectedReport": "firstcry.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "firstcry/firstcry_ads.xlsx",
+      "platform": "firstcry",
+      "expectedReport": "firstcry.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "flipkart/flipkart_orders.csv",
+      "platform": "flipkart",
+      "expectedReport": "flipkart.orders",
+      "note": "blank row mid-file, unmapped 'Seller Notes'",
+      "enabledByDefault": true
+    },
+    {
+      "path": "flipkart/flipkart_settled_transactions.xlsx",
+      "platform": "flipkart",
+      "expectedReport": [
+        "flipkart.settlement_orders",
+        "flipkart.settlement_nonorder"
+      ],
+      "note": "grouped header row, Excel serial dates, negative fees, 8 duplicate rows, multi-sheet",
+      "enabledByDefault": true
+    },
+    {
+      "path": "flipkart/flipkart_returns.csv",
+      "platform": "flipkart",
+      "expectedReport": "flipkart.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "flipkart/flipkart_ads_fsn_report.csv",
+      "platform": "flipkart",
+      "expectedReport": "flipkart.ads_pla",
+      "note": "rupee symbols and Indian grouping",
+      "enabledByDefault": true
+    },
+    {
+      "path": "flipkart_wholesale/flipkart_wholesale_orders.xlsx",
+      "platform": "flipkart_wholesale",
+      "expectedReport": "flipkart_wholesale.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "flipkart_wholesale/flipkart_wholesale_settlement.csv",
+      "platform": "flipkart_wholesale",
+      "expectedReport": "flipkart_wholesale.settlement",
+      "enabledByDefault": false
+    },
+    {
+      "path": "flipkart_wholesale/flipkart_wholesale_returns.csv",
+      "platform": "flipkart_wholesale",
+      "expectedReport": "flipkart_wholesale.returns",
+      "enabledByDefault": false
+    },
+    {
+      "path": "flipkart_wholesale/flipkart_wholesale_ads.xlsx",
+      "platform": "flipkart_wholesale",
+      "expectedReport": "flipkart_wholesale.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "indiamart/indiamart_sales_register.xlsx",
+      "platform": "indiamart",
+      "expectedReport": "indiamart.sales_register",
+      "enabledByDefault": true
+    },
+    {
+      "path": "indiamart/indiamart_billing.csv",
+      "platform": "indiamart",
+      "expectedReport": "indiamart.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "instamojo/instamojo_orders.xlsx",
+      "platform": "instamojo",
+      "expectedReport": "instamojo.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "instamojo/instamojo_ads.csv",
+      "platform": "instamojo",
+      "expectedReport": "instamojo.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "instamojo/instamojo_billing.csv",
+      "platform": "instamojo",
+      "expectedReport": "instamojo.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "jiomart/jiomart_orders.xlsx",
+      "platform": "jiomart",
+      "expectedReport": "jiomart.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "jiomart/jiomart_settlement.csv",
+      "platform": "jiomart",
+      "expectedReport": "jiomart.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "jiomart/jiomart_returns.csv",
+      "platform": "jiomart",
+      "expectedReport": "jiomart.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "jiomart/jiomart_ads.xlsx",
+      "platform": "jiomart",
+      "expectedReport": "jiomart.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "lenskart/lenskart_orders.xlsx",
+      "platform": "lenskart",
+      "expectedReport": "lenskart.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "lenskart/lenskart_settlement.csv",
+      "platform": "lenskart",
+      "expectedReport": "lenskart.settlement",
+      "enabledByDefault": false
+    },
+    {
+      "path": "lenskart/lenskart_returns.csv",
+      "platform": "lenskart",
+      "expectedReport": "lenskart.returns",
+      "enabledByDefault": false
+    },
+    {
+      "path": "lenskart/lenskart_ads.xlsx",
+      "platform": "lenskart",
+      "expectedReport": "lenskart.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "magento/magento_orders.xlsx",
+      "platform": "magento",
+      "expectedReport": "magento.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "magento/magento_ads.csv",
+      "platform": "magento",
+      "expectedReport": "magento.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "magento/magento_billing.csv",
+      "platform": "magento",
+      "expectedReport": "magento.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "meesho/meesho_orders.csv",
+      "platform": "meesho",
+      "expectedReport": "meesho.orders",
+      "note": "₹ symbols, 5 duplicate rows",
+      "enabledByDefault": true
+    },
+    {
+      "path": "meesho/meesho_payments.xlsx",
+      "platform": "meesho",
+      "expectedReport": [
+        "meesho.payments",
+        "meesho.ads"
+      ],
+      "note": "header on row 3, fees incl. GST, Ads Cost sheet",
+      "enabledByDefault": true
+    },
+    {
+      "path": "meesho/meesho_returns.csv",
+      "platform": "meesho",
+      "expectedReport": "meesho.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "myntra/myntra_orders.xlsx",
+      "platform": "myntra",
+      "expectedReport": "myntra.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "myntra/myntra_settlement.csv",
+      "platform": "myntra",
+      "expectedReport": "myntra.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "myntra/myntra_returns.csv",
+      "platform": "myntra",
+      "expectedReport": "myntra.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "myntra/myntra_ads.xlsx",
+      "platform": "myntra",
+      "expectedReport": "myntra.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "noon/noon_orders.xlsx",
+      "platform": "noon",
+      "expectedReport": "noon.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "noon/noon_settlement.csv",
+      "platform": "noon",
+      "expectedReport": "noon.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "nykaa/nykaa_orders.xlsx",
+      "platform": "nykaa",
+      "expectedReport": "nykaa.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "nykaa/nykaa_settlement.csv",
+      "platform": "nykaa",
+      "expectedReport": "nykaa.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "nykaa/nykaa_returns.csv",
+      "platform": "nykaa",
+      "expectedReport": "nykaa.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "nykaa/nykaa_ads.xlsx",
+      "platform": "nykaa",
+      "expectedReport": "nykaa.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "paytm/paytm_settlement_instamojo.xlsx",
+      "platform": "paytm",
+      "expectedReport": "paytm.settlement",
+      "attachTo": "instamojo",
+      "enabledByDefault": true
+    },
+    {
+      "path": "payu/payu_settlement_magento.xlsx",
+      "platform": "payu",
+      "expectedReport": "payu.settlement",
+      "attachTo": "magento",
+      "enabledByDefault": true
+    },
+    {
+      "path": "pepperfry/pepperfry_orders.xlsx",
+      "platform": "pepperfry",
+      "expectedReport": "pepperfry.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "pepperfry/pepperfry_settlement.csv",
+      "platform": "pepperfry",
+      "expectedReport": "pepperfry.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "pepperfry/pepperfry_returns.csv",
+      "platform": "pepperfry",
+      "expectedReport": "pepperfry.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "pepperfry/pepperfry_ads.xlsx",
+      "platform": "pepperfry",
+      "expectedReport": "pepperfry.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "phonepe/phonepe_settlement_dukaan.xlsx",
+      "platform": "phonepe",
+      "expectedReport": "phonepe.settlement",
+      "attachTo": "dukaan",
+      "enabledByDefault": false
+    },
+    {
+      "path": "purplle/purplle_orders.xlsx",
+      "platform": "purplle",
+      "expectedReport": "purplle.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "purplle/purplle_settlement.csv",
+      "platform": "purplle",
+      "expectedReport": "purplle.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "purplle/purplle_returns.csv",
+      "platform": "purplle",
+      "expectedReport": "purplle.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "purplle/purplle_ads.xlsx",
+      "platform": "purplle",
+      "expectedReport": "purplle.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "razorpay/razorpay_settlement_shopify.xlsx",
+      "platform": "razorpay",
+      "expectedReport": "razorpay.settlement",
+      "attachTo": "shopify",
+      "enabledByDefault": true
+    },
+    {
+      "path": "razorpay/razorpay_settlement_wix.csv",
+      "platform": "razorpay",
+      "expectedReport": "razorpay.settlement",
+      "attachTo": "wix",
+      "enabledByDefault": true
+    },
+    {
+      "path": "reliance_digital/reliance_digital_orders.xlsx",
+      "platform": "reliance_digital",
+      "expectedReport": "reliance_digital.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "reliance_digital/reliance_digital_settlement.csv",
+      "platform": "reliance_digital",
+      "expectedReport": "reliance_digital.settlement",
+      "enabledByDefault": false
+    },
+    {
+      "path": "reliance_digital/reliance_digital_returns.csv",
+      "platform": "reliance_digital",
+      "expectedReport": "reliance_digital.returns",
+      "enabledByDefault": false
+    },
+    {
+      "path": "reliance_digital/reliance_digital_ads.xlsx",
+      "platform": "reliance_digital",
+      "expectedReport": "reliance_digital.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "shiprocket/shiprocket_billing_dukaan.xlsx",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.billing",
+      "attachTo": "dukaan",
+      "enabledByDefault": false
+    },
+    {
+      "path": "shiprocket/shiprocket_billing_shopify.csv",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.billing",
+      "attachTo": "shopify",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shiprocket/shiprocket_billing_wix.csv",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.billing",
+      "attachTo": "wix",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shiprocket/shiprocket_cod_remittance_dukaan.xlsx",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.cod_remittance",
+      "attachTo": "dukaan",
+      "enabledByDefault": false
+    },
+    {
+      "path": "shiprocket/shiprocket_cod_remittance_shopify.csv",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.cod_remittance",
+      "attachTo": "shopify",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shiprocket/shiprocket_cod_remittance_wix.csv",
+      "platform": "shiprocket",
+      "expectedReport": "shiprocket.cod_remittance",
+      "attachTo": "wix",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shopify/shopify_orders.xlsx",
+      "platform": "shopify",
+      "expectedReport": "shopify.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shopify/shopify_ads.csv",
+      "platform": "shopify",
+      "expectedReport": "shopify.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "shopify/shopify_billing.csv",
+      "platform": "shopify",
+      "expectedReport": "shopify.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "snapdeal/snapdeal_orders.xlsx",
+      "platform": "snapdeal",
+      "expectedReport": "snapdeal.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "snapdeal/snapdeal_settlement.csv",
+      "platform": "snapdeal",
+      "expectedReport": "snapdeal.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "snapdeal/snapdeal_returns.csv",
+      "platform": "snapdeal",
+      "expectedReport": "snapdeal.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "snapdeal/snapdeal_ads.xlsx",
+      "platform": "snapdeal",
+      "expectedReport": "snapdeal.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "stripe/stripe_settlement_bigcommerce.xlsx",
+      "platform": "stripe",
+      "expectedReport": "stripe.settlement",
+      "attachTo": "bigcommerce",
+      "enabledByDefault": true
+    },
+    {
+      "path": "swiggy_instamart/swiggy_instamart_orders.xlsx",
+      "platform": "swiggy_instamart",
+      "expectedReport": "swiggy_instamart.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "swiggy_instamart/swiggy_instamart_payment_advice.csv",
+      "platform": "swiggy_instamart",
+      "expectedReport": "swiggy_instamart.payment_advice",
+      "enabledByDefault": true
+    },
+    {
+      "path": "tatacliq/tatacliq_orders.xlsx",
+      "platform": "tatacliq",
+      "expectedReport": "tatacliq.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "tatacliq/tatacliq_settlement.csv",
+      "platform": "tatacliq",
+      "expectedReport": "tatacliq.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "tatacliq/tatacliq_returns.csv",
+      "platform": "tatacliq",
+      "expectedReport": "tatacliq.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "tatacliq/tatacliq_ads.xlsx",
+      "platform": "tatacliq",
+      "expectedReport": "tatacliq.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "udaan/udaan_orders.xlsx",
+      "platform": "udaan",
+      "expectedReport": "udaan.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "udaan/udaan_settlement.csv",
+      "platform": "udaan",
+      "expectedReport": "udaan.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "udaan/udaan_returns.csv",
+      "platform": "udaan",
+      "expectedReport": "udaan.returns",
+      "enabledByDefault": true
+    },
+    {
+      "path": "udaan/udaan_ads.xlsx",
+      "platform": "udaan",
+      "expectedReport": "udaan.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "urban_ladder/urban_ladder_orders.xlsx",
+      "platform": "urban_ladder",
+      "expectedReport": "urban_ladder.orders",
+      "enabledByDefault": false
+    },
+    {
+      "path": "urban_ladder/urban_ladder_settlement.csv",
+      "platform": "urban_ladder",
+      "expectedReport": "urban_ladder.settlement",
+      "enabledByDefault": false
+    },
+    {
+      "path": "urban_ladder/urban_ladder_returns.csv",
+      "platform": "urban_ladder",
+      "expectedReport": "urban_ladder.returns",
+      "enabledByDefault": false
+    },
+    {
+      "path": "urban_ladder/urban_ladder_ads.xlsx",
+      "platform": "urban_ladder",
+      "expectedReport": "urban_ladder.ads",
+      "enabledByDefault": false
+    },
+    {
+      "path": "walmart/walmart_orders.xlsx",
+      "platform": "walmart",
+      "expectedReport": "walmart.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "walmart/walmart_settlement.csv",
+      "platform": "walmart",
+      "expectedReport": "walmart.settlement",
+      "enabledByDefault": true
+    },
+    {
+      "path": "wix/wix_orders.xlsx",
+      "platform": "wix",
+      "expectedReport": "wix.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "wix/wix_ads.csv",
+      "platform": "wix",
+      "expectedReport": "wix.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "wix/wix_billing.csv",
+      "platform": "wix",
+      "expectedReport": "wix.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "woocommerce/woocommerce_orders.xlsx",
+      "platform": "woocommerce",
+      "expectedReport": "woocommerce.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "woocommerce/woocommerce_ads.csv",
+      "platform": "woocommerce",
+      "expectedReport": "woocommerce.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "woocommerce/woocommerce_billing.csv",
+      "platform": "woocommerce",
+      "expectedReport": "woocommerce.billing",
+      "enabledByDefault": true
+    },
+    {
+      "path": "xpressbees/xpressbees_billing_magento.xlsx",
+      "platform": "xpressbees",
+      "expectedReport": "xpressbees.billing",
+      "attachTo": "magento",
+      "enabledByDefault": true
+    },
+    {
+      "path": "xpressbees/xpressbees_cod_remittance_magento.csv",
+      "platform": "xpressbees",
+      "expectedReport": "xpressbees.cod_remittance",
+      "attachTo": "magento",
+      "enabledByDefault": true
+    },
+    {
+      "path": "zepto/zepto_orders.xlsx",
+      "platform": "zepto",
+      "expectedReport": "zepto.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "zepto/zepto_payment_advice.csv",
+      "platform": "zepto",
+      "expectedReport": "zepto.payment_advice",
+      "enabledByDefault": true
+    },
+    {
+      "path": "zoho_commerce/zoho_commerce_orders.xlsx",
+      "platform": "zoho_commerce",
+      "expectedReport": "zoho_commerce.orders",
+      "enabledByDefault": true
+    },
+    {
+      "path": "zoho_commerce/zoho_commerce_ads.csv",
+      "platform": "zoho_commerce",
+      "expectedReport": "zoho_commerce.ads",
+      "enabledByDefault": true
+    },
+    {
+      "path": "zoho_commerce/zoho_commerce_billing.csv",
+      "platform": "zoho_commerce",
+      "expectedReport": "zoho_commerce.billing",
+      "enabledByDefault": true
+    }
+  ]
+}
