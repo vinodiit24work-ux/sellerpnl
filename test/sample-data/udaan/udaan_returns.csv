@@ -1,0 +1,19 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00553662,ORD00553662#ELC-SMW-BND,ELC-SMW-BND,1,RTO,Customer refused / undeliverable,06-Aug-2026,Good
+ORD00553963,ORD00553963#KIT-PAN-NS-24,KIT-PAN-NS-24,1,RTO,Customer refused / undeliverable,13-Aug-2026,Good
+ORD00553981,ORD00553981#ELC-PWR-10K,ELC-PWR-10K,1,RTO,Customer refused / undeliverable,31-May-2026,Good
+ORD00554072,ORD00554072#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Size too small,12-Jul-2026,Damaged
+ORD00554097,ORD00554097#APP-TSH-WHT-L,APP-TSH-WHT-L,1,RTO,Customer refused / undeliverable,02-Aug-2026,Good
+ORD00554101,ORD00554101#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Not compatible,20-Aug-2026,Good
+ORD00554291,ITM00554302,APP-JGR-GRY-M,3,Customer Return,Size too small,28-Jul-2026,Good
+ORD00554439,ORD00554439#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Quality not as expected,12-Aug-2026,Good
+ORD00554513,ORD00554513#BTY-NAIL-KIT,BTY-NAIL-KIT,1,RTO,Customer refused / undeliverable,26-Sep-2026,Good
+ORD00554582,ORD00554582#KIT-SPC-RCK,KIT-SPC-RCK,1,Customer Return,Missing parts,01-Jun-2026,Good
+ORD00554639,ORD00554639#ELC-EAR-TWS,ELC-EAR-TWS,1,Customer Return,Missing accessories,11-Sep-2026,Good
+ORD00555051,ORD00555051#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Colour different from image,25-Sep-2026,Good
+ORD00555104,ORD00555104#BTY-LIP-MAT-RD,BTY-LIP-MAT-RD,1,RTO,Customer refused / undeliverable,22-Aug-2026,Damaged
+ORD00555466,ORD00555466#KIT-LNC-BOX,KIT-LNC-BOX,1,Customer Return,Wrong item received,15-Sep-2026,Good
+ORD00555637,ITM00555657,ELC-CHG-20W,1,RTO,Customer refused / undeliverable,16-Jun-2026,Damaged
+ORD00556034,ORD00556034#BTY-SRM-VITC,BTY-SRM-VITC,1,RTO,Customer refused / undeliverable,27-Apr-2026,Good
+ORD00556092,ORD00556092#BTY-PERF-50,BTY-PERF-50,1,RTO,Customer refused / undeliverable,03-May-2026,Good
+ORD00556373,ORD00556373#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,Customer Return,Damaged product,14-Jun-2026,Good

@@ -1,0 +1,15 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00663902,ORD00663902#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,RTO,Customer refused / undeliverable,2026-09-03,Good
+ORD00664022,ORD00664022#ELC-SMW-BND,ELC-SMW-BND,1,Customer Return,Damaged product,2026-09-30,Good
+ORD00664279,ORD00664279#ELC-HLD-CAR,ELC-HLD-CAR,1,RTO,Customer refused / undeliverable,2026-07-17,Good
+ORD00664426,ITM00664455,ELC-EAR-TWS,1,Customer Return,Not working / defective,2026-08-26,Good
+ORD00664426,ITM00664472,ELC-SMW-BND,1,RTO,Customer refused / undeliverable,2026-08-24,Good
+ORD00664691,ORD00664691#ELC-SPK-BT,ELC-SPK-BT,1,Customer Return,Missing accessories,2026-09-05,Good
+ORD00664787,ORD00664787#ELC-SMW-BND,ELC-SMW-BND,1,RTO,Customer refused / undeliverable,2026-06-22,Good
+ORD00665015,ORD00665015#ELC-SMW-BND,ELC-SMW-BND,1,Customer Return,Damaged product,2026-04-17,Good
+ORD00665063,ORD00665063#ELC-SCR-GRD,ELC-SCR-GRD,1,RTO,Customer refused / undeliverable,2026-06-12,Good
+ORD00665088,ORD00665088#ELC-CHG-20W,ELC-CHG-20W,1,Customer Return,Missing accessories,2026-05-16,Good
+ORD00665284,ORD00665284#ELC-SPK-BT,ELC-SPK-BT,2,Customer Return,Not compatible,2026-05-14,Good
+ORD00665381,ORD00665381#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,2,RTO,Customer refused / undeliverable,2026-07-14,Good
+ORD00665664,ORD00665664#ELC-SCR-GRD,ELC-SCR-GRD,2,RTO,Customer refused / undeliverable,2026-05-17,Good
+ORD00665676,ORD00665676#ELC-EAR-TWS,ELC-EAR-TWS,1,RTO,Customer refused / undeliverable,2026-06-10,Good

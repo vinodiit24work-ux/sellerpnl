@@ -1,0 +1,11 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00234439,ORD00234439#HOM-CUS-VLV-2,HOM-CUS-VLV-2,1,Customer Return,Quality not as expected,16-May-2026,Damaged
+ORD00234526,ORD00234526#HOM-CUS-VLV-2,HOM-CUS-VLV-2,1,RTO,Customer refused / undeliverable,10-Aug-2026,Good
+ORD00235275,ORD00235275#HOM-PHT-FRM,HOM-PHT-FRM,1,RTO,Customer refused / undeliverable,26-Aug-2026,Good
+ORD00235444,ORD00235444#HOM-CNDL-SET3,HOM-CNDL-SET3,2,RTO,Customer refused / undeliverable,27-Sep-2026,Good
+ORD00236294,ORD00236294#HOM-DOOR-MAT,HOM-DOOR-MAT,1,Customer Return,Damaged in transit,17-May-2026,Good
+ORD00236357,ORD00236357#KIT-BTL-STL-1L,KIT-BTL-STL-1L,1,Customer Return,Quality not as expected,09-Jun-2026,Good
+ORD00236526,ORD00236526#HOM-PHT-FRM,HOM-PHT-FRM,1,Customer Return,Quality not as expected,10-Jun-2026,Good
+ORD00236603,ORD00236603#HOM-PHT-FRM,HOM-PHT-FRM,1,Customer Return,Damaged in transit,05-May-2026,Good
+ORD00236858,ORD00236858#HOM-PHT-FRM,HOM-PHT-FRM,1,Customer Return,Quality not as expected,31-May-2026,Damaged
+ORD00237319,ORD00237319#HOM-WALL-CLK,HOM-WALL-CLK,1,Customer Return,Not as described,22-Jun-2026,Good

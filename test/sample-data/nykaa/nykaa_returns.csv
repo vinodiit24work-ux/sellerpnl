@@ -1,0 +1,28 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00729350,ORD00729350#BTY-LIP-MAT-RD,BTY-LIP-MAT-RD,1,RTO,Customer refused / undeliverable,2026-09-24,Good
+ORD00729435,ORD00729435#BTY-SUN-SPF50,BTY-SUN-SPF50,1,Customer Return,Seal broken,2026-07-20,Good
+ORD00729812,ORD00729812#BTY-FCW-NEEM,BTY-FCW-NEEM,1,Customer Return,Product expired / near expiry,2026-08-11,Damaged
+ORD00729830,ORD00729830#BTY-KJL-BLK,BTY-KJL-BLK,1,Customer Return,Product expired / near expiry,2026-08-14,Good
+ORD00729924,ORD00729924#BTY-SUN-SPF50,BTY-SUN-SPF50,1,RTO,Customer refused / undeliverable,2026-07-17,Damaged
+ORD00730004,ORD00730004#BTY-FCW-NEEM,BTY-FCW-NEEM,1,Customer Return,Allergic reaction,2026-09-03,Good
+ORD00730081,ORD00730081#BTY-SRM-VITC,BTY-SRM-VITC,1,Customer Return,Seal broken,2026-06-21,Good
+ORD00730273,ORD00730273#BTY-KJL-BLK,BTY-KJL-BLK,1,RTO,Customer refused / undeliverable,2026-09-27,Good
+ORD00730344,ORD00730344#BTY-SUN-SPF50,BTY-SUN-SPF50,1,RTO,Customer refused / undeliverable,2026-04-27,Good
+ORD00730695,ORD00730695#BTY-LIP-MAT-RD,BTY-LIP-MAT-RD,1,RTO,Customer refused / undeliverable,2026-09-23,Good
+ORD00731328,ORD00731328#BTY-FCW-NEEM,BTY-FCW-NEEM,1,Customer Return,Product expired / near expiry,2026-08-30,Good
+ORD00731612,ITM00731620,BTY-SRM-VITC,1,Customer Return,Allergic reaction,2026-05-03,Lost
+ORD00731766,ORD00731766#BTY-SRM-VITC,BTY-SRM-VITC,1,Customer Return,Product expired / near expiry,2026-07-14,Damaged
+ORD00731962,ORD00731962#BTY-LIP-MAT-RD,BTY-LIP-MAT-RD,1,Customer Return,Product expired / near expiry,2026-09-04,Good
+ORD00732047,ITM00732084,BTY-PERF-50,1,Customer Return,Allergic reaction,2026-07-02,Wrong item
+ORD00732047,ITM00732117,BTY-FCW-NEEM,1,RTO,Customer refused / undeliverable,2026-07-03,Good
+ORD00732727,ORD00732727#BTY-KJL-BLK,BTY-KJL-BLK,2,Customer Return,Product expired / near expiry,2026-08-06,Good
+ORD00732743,ORD00732743#BTY-HAIR-OIL,BTY-HAIR-OIL,1,Customer Return,Seal broken,2026-08-24,Lost
+ORD00733119,ORD00733119#BTY-KJL-BLK,BTY-KJL-BLK,1,RTO,Customer refused / undeliverable,2026-06-05,Good
+ORD00733246,ORD00733246#BTY-HAIR-OIL,BTY-HAIR-OIL,1,RTO,Customer refused / undeliverable,2026-08-15,Good
+ORD00733328,ORD00733328#BTY-HAIR-OIL,BTY-HAIR-OIL,1,Customer Return,Product expired / near expiry,2026-07-07,Good
+ORD00733652,ORD00733652#BTY-NAIL-KIT,BTY-NAIL-KIT,1,Customer Return,Product expired / near expiry,2026-10-02,Good
+ORD00734060,ORD00734060#BTY-FCW-NEEM,BTY-FCW-NEEM,1,Customer Return,Wrong shade,2026-09-01,Good
+ORD00734616,ORD00734616#BTY-FCW-NEEM,BTY-FCW-NEEM,1,RTO,Customer refused / undeliverable,2026-07-02,Good
+ORD00734775,ITM00734797,BTY-PERF-50,1,RTO,Customer refused / undeliverable,2026-07-27,Good
+ORD00734775,ITM00734801,BTY-HAIR-OIL,1,Customer Return,Wrong shade,2026-07-26,Good
+ORD00734972,ORD00734972#BTY-SRM-VITC,BTY-SRM-VITC,1,RTO,Customer refused / undeliverable,2026-09-11,Good

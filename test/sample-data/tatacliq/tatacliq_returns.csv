@@ -1,0 +1,48 @@
+Order ID,Order Item ID,Seller SKU,Quantity,Return Type,Return Reason,Return Date,Received Condition
+ORD00858448,ORD00858448#ELC-PWR-10K,ELC-PWR-10K,1,Customer Return,Not working / defective,31-Jul-2026,Damaged
+ORD00858483,ORD00858483#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Damaged product,26-Sep-2026,Good
+ORD00858540,ITM00858544,ELC-SMW-BND,1,Customer Return,Missing accessories,24-Aug-2026,Good
+ORD00858764,ORD00858764#ELC-SPK-BT,ELC-SPK-BT,1,Customer Return,Not compatible,11-Jun-2026,Good
+ORD00859017,ORD00859017#APP-SHR-DEN-32,APP-SHR-DEN-32,1,Customer Return,Size too small,13-Apr-2026,Good
+ORD00859185,ORD00859185#HOM-PLANT-POT,HOM-PLANT-POT,1,RTO,Customer refused / undeliverable,06-Jun-2026,Good
+ORD00859389,ORD00859389#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Damaged product,06-May-2026,Good
+ORD00859505,ORD00859505#APP-DRS-FLR-S,APP-DRS-FLR-S,1,Customer Return,Size too small,14-Sep-2026,Good
+ORD00859878,ORD00859878#APP-JGR-GRY-M,APP-JGR-GRY-M,1,RTO,Customer refused / undeliverable,07-Jul-2026,Good
+ORD00859894,ORD00859894#APP-KRT-BLU-M,APP-KRT-BLU-M,1,RTO,Customer refused / undeliverable,28-Jul-2026,Good
+ORD00860074,ORD00860074#APP-JGR-GRY-M,APP-JGR-GRY-M,1,Customer Return,Size too large,19-Sep-2026,Good
+ORD00860421,ORD00860421#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,Customer Return,Missing accessories,27-Aug-2026,Good
+ORD00860457,ORD00860457#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,09-Jun-2026,Good
+ORD00860477,ORD00860477#ELC-CHG-20W,ELC-CHG-20W,1,RTO,Customer refused / undeliverable,04-Sep-2026,Good
+ORD00860782,ORD00860782#ELC-SCR-GRD,ELC-SCR-GRD,1,RTO,Customer refused / undeliverable,02-Jun-2026,Good
+ORD00860871,ORD00860871#HOM-DOOR-MAT,HOM-DOOR-MAT,1,Customer Return,Not as described,01-Sep-2026,Wrong item
+ORD00860908,ORD00860908#APP-KRT-BLU-M,APP-KRT-BLU-M,1,Customer Return,Damaged product,15-Jul-2026,Good
+ORD00860939,ORD00860939#HOM-BED-DBL-CTN,HOM-BED-DBL-CTN,1,Customer Return,Quality not as expected,01-Jun-2026,Wrong item
+ORD00860990,ORD00860990#ELC-SCR-GRD,ELC-SCR-GRD,1,Customer Return,Not working / defective,24-Jul-2026,Good
+ORD00861010,ORD00861010#APP-JGR-GRY-M,APP-JGR-GRY-M,1,RTO,Customer refused / undeliverable,29-Aug-2026,Good
+ORD00861019,ORD00861019#ELC-SCR-GRD,ELC-SCR-GRD,1,Customer Return,Damaged product,03-Sep-2026,Wrong item
+ORD00861158,ORD00861158#HOM-DOOR-MAT,HOM-DOOR-MAT,1,RTO,Customer refused / undeliverable,01-Jul-2026,Good
+ORD00861415,ITM00861444,ELC-SCR-GRD,1,RTO,Customer refused / undeliverable,16-Aug-2026,Good
+ORD00861677,ORD00861677#ELC-CHG-20W,ELC-CHG-20W,1,RTO,Customer refused / undeliverable,12-Sep-2026,Good
+ORD00861712,ORD00861712#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,08-May-2026,Wrong item
+ORD00861940,ORD00861940#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Size too small,10-Sep-2026,Good
+ORD00862141,ORD00862141#APP-TSH-BLK-M,APP-TSH-BLK-M,1,Customer Return,Damaged product,18-May-2026,Good
+ORD00862179,ORD00862179#APP-JGR-GRY-M,APP-JGR-GRY-M,1,RTO,Customer refused / undeliverable,04-Aug-2026,Good
+ORD00862565,ITM00862607,APP-DRS-FLR-S,1,Customer Return,Quality not as expected,01-Oct-2026,Good
+ORD00862659,ORD00862659#HOM-BED-DBL-CTN,HOM-BED-DBL-CTN,1,Customer Return,Not as described,18-May-2026,Good
+ORD00862672,ORD00862672#APP-SOK-PK5,APP-SOK-PK5,1,Customer Return,Size too large,25-Apr-2026,Good
+ORD00862728,ITM00862779,APP-TSH-BLK-M,1,RTO,Customer refused / undeliverable,19-Sep-2026,Good
+ORD00862927,ORD00862927#HOM-PLANT-POT,HOM-PLANT-POT,1,Customer Return,Not as described,18-Jun-2026,Good
+ORD00863015,ORD00863015#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Quality not as expected,03-May-2026,Good
+ORD00863026,ORD00863026#ELC-EAR-TWS,ELC-EAR-TWS,1,Customer Return,Not working / defective,27-Jun-2026,Damaged
+ORD00863031,ITM00863060,APP-JGR-GRY-M,2,RTO,Customer refused / undeliverable,21-Jun-2026,Good
+ORD00863121,ORD00863121#HOM-WALL-CLK,HOM-WALL-CLK,1,Customer Return,Not as described,09-Jul-2026,Wrong item
+ORD00863341,ORD00863341#ELC-SCR-GRD,ELC-SCR-GRD,1,Customer Return,Not working / defective,27-Sep-2026,Good
+ORD00863366,ORD00863366#ELC-PWR-10K,ELC-PWR-10K,1,RTO,Customer refused / undeliverable,13-Jun-2026,Good
+ORD00863671,ORD00863671#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Colour different from image,08-May-2026,Damaged
+ORD00863716,ORD00863716#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Damaged product,15-Jul-2026,Good
+ORD00863753,ORD00863753#ELC-EAR-TWS,ELC-EAR-TWS,2,Customer Return,Not working / defective,18-Sep-2026,Good
+ORD00863789,ITM00863815,APP-TSH-BLK-M,1,RTO,Customer refused / undeliverable,20-Jun-2026,Damaged
+ORD00864004,ORD00864004#HOM-CUS-VLV-2,HOM-CUS-VLV-2,2,RTO,Customer refused / undeliverable,20-Jul-2026,Good
+ORD00864048,ORD00864048#ELC-CBL-USBC-1M,ELC-CBL-USBC-1M,1,Customer Return,Missing accessories,22-Sep-2026,Good
+ORD00864120,ORD00864120#APP-TSH-BLK-M,APP-TSH-BLK-M,1,RTO,Customer refused / undeliverable,10-May-2026,Good
+ORD00864313,ORD00864313#APP-TSH-WHT-L,APP-TSH-WHT-L,1,Customer Return,Damaged product,05-Jun-2026,Damaged
